@@ -1,0 +1,26 @@
+{
+  "slug": "nts",
+  "url": "https://www.nts.live",
+  "finalUrl": "https://www.nts.live/",
+  "title": "NTS | Don't Assume",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [],
+    "fonts": [
+      "Univers-Condensed"
+    ],
+    "canvases": [],
+    "weightKB": {
+      "total": 1626,
+      "js": 1415,
+      "img": 2,
+      "font": 47,
+      "video": 0
+    },
+    "requests": 140,
+    "reducedMotionCSS": true,
+    "server": "nginx/1.20.2"
+  },
+  "name": "NTS",
+  "idea": "A radio that is always on: two live channels stay pinned under the nav on every page"
+}

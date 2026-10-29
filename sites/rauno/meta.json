@@ -1,0 +1,26 @@
+{
+  "slug": "rauno",
+  "url": "https://rauno.me",
+  "finalUrl": "https://rauno.me/",
+  "title": "Rauno Freiberg",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [
+      "Next.js"
+    ],
+    "fonts": [
+      "X"
+    ],
+    "canvases": [],
+    "weightKB": {
+      "total": 1027,
+      "js": 957,
+      "img": 0,
+      "font": 51,
+      "video": 0
+    },
+    "requests": 32,
+    "reducedMotionCSS": false,
+    "server": "Vercel · Vercel"
+  }
+}

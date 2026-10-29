@@ -1,0 +1,30 @@
+{
+  "slug": "samsy",
+  "url": "https://www.samsy.ninja",
+  "finalUrl": "https://www.samsy.ninja/tutorial",
+  "title": "SMSY-Gen02 | Award Winning Creative Graphics Engineer",
+  "name": "Samsy",
+  "idea": "The portfolio is a game, and the first screen teaches you the controls",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [
+      "three.js r182dev"
+    ],
+    "fonts": [
+      "forma-djr-display"
+    ],
+    "canvases": [
+      "1440x900"
+    ],
+    "weightKB": {
+      "total": 6494,
+      "js": 1094,
+      "img": 1525,
+      "font": 0,
+      "video": 20
+    },
+    "requests": 39,
+    "reducedMotionCSS": false,
+    "server": "nginx/1.10.3 (Ubuntu)"
+  }
+}

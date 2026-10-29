@@ -1,0 +1,28 @@
+{
+  "slug": "activetheory",
+  "url": "https://activetheory.net",
+  "finalUrl": "https://activetheory.net/work",
+  "title": "Active Theory · Creative Digital Experiences",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [],
+    "fonts": [
+      "nbarchitekt"
+    ],
+    "canvases": [
+      "2160x1350"
+    ],
+    "weightKB": {
+      "total": 754,
+      "js": 400,
+      "img": 1,
+      "font": 38,
+      "video": 0
+    },
+    "requests": 32,
+    "reducedMotionCSS": false,
+    "server": ""
+  },
+  "name": "Active Theory",
+  "idea": "One continuous 3D world, held to: why is this in WebGL at all?"
+}

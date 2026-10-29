@@ -1,0 +1,31 @@
+{
+  "slug": "grilli-type",
+  "url": "https://www.grillitype.com",
+  "finalUrl": "https://www.grillitype.com/",
+  "title": "Welcome to Grilli Type – Independent Swiss Type Foundry",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [],
+    "fonts": [
+      "GT-Corporate-Web",
+      "GT-Era-Display-Regular",
+      "GT-Mechanik-Semi-Regular",
+      "GT-Canon-L-Standard-Medium",
+      "GT-Standard-L-Standard-Regular",
+      "GT-Flaire-Basic-Regular",
+      "GT-Pantheon-Display-Medium",
+      "Amer-Stand-Regular"
+    ],
+    "canvases": [],
+    "weightKB": {
+      "total": 13094,
+      "js": 1579,
+      "img": 9371,
+      "font": 1394,
+      "video": 0
+    },
+    "requests": 56,
+    "reducedMotionCSS": false,
+    "server": "nginx/1.11.3 · Express"
+  }
+}

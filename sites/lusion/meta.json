@@ -1,0 +1,34 @@
+{
+  "slug": "lusion",
+  "url": "https://lusion.co",
+  "finalUrl": "https://lusion.co/",
+  "title": "Lusion - Award Winning 3D and Interactive Web Studio",
+  "name": "Lusion",
+  "idea": "A 3D studio opens on a heap of rendered parts, then steps aside for the work",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [
+      "three.js r158",
+      "Astro"
+    ],
+    "fonts": [
+      "Aeonik",
+      "IBMPlexMono",
+      "LusionMono"
+    ],
+    "canvases": [
+      "1440x900",
+      "1442x902"
+    ],
+    "weightKB": {
+      "total": 508,
+      "js": 298,
+      "img": 2,
+      "font": 186,
+      "video": 0
+    },
+    "requests": 104,
+    "reducedMotionCSS": false,
+    "server": "Netlify · Netlify"
+  }
+}

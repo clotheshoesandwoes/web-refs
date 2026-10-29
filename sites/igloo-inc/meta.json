@@ -1,0 +1,26 @@
+{
+  "slug": "igloo-inc",
+  "url": "https://igloo.inc",
+  "finalUrl": "https://www.igloo.inc/",
+  "title": "Igloo Inc.",
+  "name": "Igloo Inc.",
+  "idea": "An igloo built from ice blocks, and each portfolio company is frozen inside one",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [
+      "three.js r165"
+    ],
+    "fonts": [],
+    "canvases": [],
+    "weightKB": {
+      "total": 15041,
+      "js": 558,
+      "img": 2,
+      "font": 0,
+      "video": 0
+    },
+    "requests": 95,
+    "reducedMotionCSS": false,
+    "server": "cloudflare · Vercel · Cloudflare"
+  }
+}

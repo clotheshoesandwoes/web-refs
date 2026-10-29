@@ -1,0 +1,38 @@
+{
+  "slug": "oryzo",
+  "url": "https://oryzo.ai",
+  "finalUrl": "https://oryzo.ai/",
+  "title": "ORYZO AI",
+  "name": "Oryzo",
+  "idea": "Sell a cork coaster like an AI model launch, to prove the studio can sell anything",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [
+      "three.js r178 - modified by Lusion",
+      "Astro"
+    ],
+    "fonts": [
+      "halyard-display-variable",
+      "Literata",
+      "DM Mono"
+    ],
+    "canvases": [
+      "1440x900",
+      "571x734",
+      "1440x900",
+      "495x495",
+      "321x321",
+      "1440x900"
+    ],
+    "weightKB": {
+      "total": 15075,
+      "js": 299,
+      "img": 7513,
+      "font": 123,
+      "video": 0
+    },
+    "requests": 142,
+    "reducedMotionCSS": false,
+    "server": "cloudflare · Cloudflare"
+  }
+}

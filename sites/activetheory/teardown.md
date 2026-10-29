@@ -1,12 +1,20 @@
 # activetheory.net
 
+<!-- gallery:start -->
+<p><a href="../../README.md#worlds">All sites</a> &nbsp;&nbsp; <a href="../izakaya-sakura/teardown.md">&larr; Izakaya Sakura</a> &nbsp;&nbsp; <a href="../seanblundin/teardown.md">Sean Blundin &rarr;</a> &nbsp;&nbsp; <a href="https://activetheory.net">Open the live site</a></p>
+<p><img src="motion.webp" width="100%" alt="Active Theory, first seconds with the cursor moving"></p>
+<!-- gallery:end -->
+
 Looked at on 2026-10-28.
 
 **The idea:** the studio's own site is one continuous world you scroll through. They hold their 3D to one rule: "Why is this in WebGL at all?"
 
-![loader](01-loader.jpg) ![jellyfish](02-jellyfish.jpg)
-![red scene](03-red-scene.jpg) ![forest](04-forest.jpg)
-![work](05-work.jpg)
+![Hero: the chrome a on a looping wire, spores drifting](01-hero.jpg)
+![Scrolling into the scene](02-scroll.jpg)
+![Scrolling further](03-scroll.jpg)
+![Creative Digital Experiences set in WebGL type over the first work card](04-scroll.jpg)
+![The work cards](05-scroll.jpg)
+![Phone](phone.jpg)
 
 ## What you see
 

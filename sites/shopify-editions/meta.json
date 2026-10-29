@@ -1,0 +1,35 @@
+{
+  "slug": "shopify-editions",
+  "url": "https://www.shopify.com/editions/winter2026",
+  "finalUrl": "https://www.shopify.com/editions/winter2026",
+  "title": "Shopify Editions | Winter '26",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [
+      "three.js r181",
+      "Lenis"
+    ],
+    "fonts": [
+      "Inter-Variable",
+      "NeueMontreal",
+      "HWCigars",
+      "ImperialScript"
+    ],
+    "canvases": [
+      "1440x900",
+      "300x150"
+    ],
+    "weightKB": {
+      "total": 3583,
+      "js": 708,
+      "img": 121,
+      "font": 70,
+      "video": 0
+    },
+    "requests": 70,
+    "reducedMotionCSS": false,
+    "server": "cloudflare · Cloudflare"
+  },
+  "name": "Shopify Editions Winter '26",
+  "idea": "A product changelog staged as a Renaissance painting, in twelve Roman-numeral chapters"
+}

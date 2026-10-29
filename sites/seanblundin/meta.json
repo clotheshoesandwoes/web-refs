@@ -1,0 +1,32 @@
+{
+  "slug": "seanblundin",
+  "url": "https://seanblundin.com",
+  "finalUrl": "https://seanblundin.com/",
+  "title": "Sean Blundin",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [
+      "Next.js"
+    ],
+    "fonts": [
+      "Geist"
+    ],
+    "canvases": [
+      "1440x900",
+      "300x150",
+      "300x150"
+    ],
+    "weightKB": {
+      "total": 387,
+      "js": 199,
+      "img": 118,
+      "font": 52,
+      "video": 0
+    },
+    "requests": 27,
+    "reducedMotionCSS": true,
+    "server": "railway-hikari · Next.js"
+  },
+  "name": "Sean Blundin",
+  "idea": "The site is a TV and every page is a channel"
+}

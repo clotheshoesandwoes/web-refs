@@ -1,0 +1,12 @@
+{
+  "name": "web-refs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "shoot": "node tools/shoot.mjs",
+    "gallery": "python tools/gallery.py"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.56.0"
+  }
+}

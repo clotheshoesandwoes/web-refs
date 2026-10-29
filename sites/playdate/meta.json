@@ -1,0 +1,31 @@
+{
+  "slug": "playdate",
+  "url": "https://play.date",
+  "finalUrl": "https://play.date/",
+  "title": "Playdate",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [
+      "three.js r90"
+    ],
+    "fonts": [
+      "Roobert"
+    ],
+    "canvases": [
+      "1100x1000",
+      "1100x1000"
+    ],
+    "weightKB": {
+      "total": 2817,
+      "js": 205,
+      "img": 2444,
+      "font": 132,
+      "video": 0
+    },
+    "requests": 80,
+    "reducedMotionCSS": true,
+    "server": "cloudflare · Cloudflare"
+  },
+  "name": "Playdate",
+  "idea": "A real 3D Playdate plays its own games on screen and flips its crank open as you scroll"
+}

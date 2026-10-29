@@ -1,0 +1,30 @@
+{
+  "slug": "stripe-press",
+  "url": "https://press.stripe.com",
+  "finalUrl": "https://press.stripe.com/",
+  "title": "Stripe Press — Ideas for progress",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [
+      "three.js r151"
+    ],
+    "fonts": [
+      "Ivar Display",
+      "Ivar Headline",
+      "Ivar Text"
+    ],
+    "canvases": [
+      "1440x900"
+    ],
+    "weightKB": {
+      "total": 690,
+      "js": 355,
+      "img": 0,
+      "font": 0,
+      "video": 0
+    },
+    "requests": 189,
+    "reducedMotionCSS": false,
+    "server": "nginx"
+  }
+}

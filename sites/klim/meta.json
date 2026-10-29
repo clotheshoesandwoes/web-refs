@@ -1,0 +1,27 @@
+{
+  "slug": "klim",
+  "url": "https://klim.co.nz",
+  "finalUrl": "https://klim.co.nz/",
+  "title": "Klim Type Foundry",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [
+      "generator: Gatsby 5.16.1"
+    ],
+    "fonts": [
+      "SOEHNE",
+      "SOEHNE_IKON"
+    ],
+    "canvases": [],
+    "weightKB": {
+      "total": 1324,
+      "js": 339,
+      "img": 730,
+      "font": 79,
+      "video": 0
+    },
+    "requests": 41,
+    "reducedMotionCSS": false,
+    "server": "AmazonS3"
+  }
+}

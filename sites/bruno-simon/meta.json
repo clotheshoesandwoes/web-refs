@@ -1,0 +1,32 @@
+{
+  "slug": "bruno-simon",
+  "url": "https://bruno-simon.com",
+  "finalUrl": "https://bruno-simon.com/",
+  "title": "Bruno's",
+  "name": "Bruno Simon",
+  "idea": "The portfolio is a toy world you drive a car through",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [
+      "three.js r183"
+    ],
+    "fonts": [
+      "Amatic SC",
+      "Nunito",
+      "Pally-Medium"
+    ],
+    "canvases": [
+      "1440x900"
+    ],
+    "weightKB": {
+      "total": 7342,
+      "js": 1067,
+      "img": 1,
+      "font": 22,
+      "video": 0
+    },
+    "requests": 115,
+    "reducedMotionCSS": false,
+    "server": "nginx/1.24.0 (Ubuntu)"
+  }
+}

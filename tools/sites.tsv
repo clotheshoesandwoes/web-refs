@@ -1,0 +1,37 @@
+# group	slug	url	shoot options
+house	izakaya-sakura	https://www.seankani.com/studio/clients/izakaya-sakura/	--wait=4000 --steps=3
+worlds	activetheory	https://activetheory.net	--wait=14000 --steps=4 --step=1400 --frames=12
+worlds	seanblundin	https://seanblundin.com	--wait=12000 --steps=0
+worlds	lusion	https://lusion.co	--wait=12000 --steps=4
+worlds	igloo-inc	https://igloo.inc	--wait=14000 --steps=4 --step=1200
+worlds	bruno-simon	https://bruno-simon.com	--wait=14000 --steps=0 --click=720,450
+worlds	dogstudio	https://dogstudio.co	--wait=10000 --steps=4
+worlds	unseen	https://unseen.co	--wait=14000 --steps=4 --click=718,518
+worlds	immersive-garden	https://www.immersive-g.com	--wait=12000 --steps=4
+worlds	messenger-abeto	https://messenger.abeto.co	--wait=14000 --steps=0 --click=720,450
+worlds	oryzo	https://oryzo.ai	--wait=12000 --steps=5
+worlds	garden-eight	https://garden-eight.com	--wait=9000 --steps=4
+worlds	resn	https://resn.co.nz	--wait=12000 --steps=3
+worlds	14islands	https://www.14islands.com	--wait=8000 --steps=4
+worlds	samsy	https://www.samsy.ninja	--wait=14000 --steps=3
+type	klim	https://klim.co.nz	--wait=5000 --steps=4
+type	grilli-type	https://www.grillitype.com	--wait=5000 --steps=4
+type	dinamo	https://abcdinamo.com	--wait=6000 --steps=4
+type	oh-no-type	https://ohnotype.co	--wait=5000 --steps=4
+type	commercial-type	https://www.commercialtype.com	--wait=5000 --steps=4
+type	stripe-press	https://press.stripe.com	--wait=8000 --steps=4
+type	the-pudding	https://pudding.cool	--wait=5000 --steps=4
+writing	gwern	https://gwern.net	--wait=5000 --steps=3
+writing	robin-sloan	https://www.robinsloan.com	--wait=4000 --steps=3
+writing	craig-mod	https://craigmod.com	--wait=4000 --steps=3
+writing	rauno	https://rauno.me	--wait=5000 --steps=3
+writing	maggie-appleton	https://maggieappleton.com	--wait=5000 --steps=3
+writing	ciechanowski-watch	https://ciechanow.ski/mechanical-watch/	--wait=6000 --steps=5
+objects	playdate	https://play.date	--wait=6000 --steps=5
+objects	teenage-engineering	https://teenage.engineering	--wait=6000 --steps=4
+objects	poolsuite	https://poolsuite.net	--wait=7000 --steps=0
+objects	nts	https://www.nts.live	--wait=6000 --steps=3
+objects	panic	https://www.panic.com	--wait=5000 --steps=4
+objects	shopify-editions	https://www.shopify.com/editions/winter2026	--wait=9000 --steps=5
+tables	dishoom	https://www.dishoom.com	--wait=6000 --steps=4
+tables	noma	https://noma.dk	--wait=6000 --steps=4

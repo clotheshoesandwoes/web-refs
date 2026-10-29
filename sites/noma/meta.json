@@ -1,0 +1,31 @@
+{
+  "slug": "noma",
+  "url": "https://noma.dk",
+  "finalUrl": "https://noma.dk/",
+  "title": "noma",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [
+      "WordPress",
+      "generator: Site Kit by Google 1.190.0"
+    ],
+    "fonts": [
+      "Reckless-Neue",
+      "Reckless",
+      "Roobert"
+    ],
+    "canvases": [],
+    "weightKB": {
+      "total": 18553,
+      "js": 103,
+      "img": 18116,
+      "font": 255,
+      "video": 0
+    },
+    "requests": 98,
+    "reducedMotionCSS": true,
+    "server": "nginx"
+  },
+  "name": "noma",
+  "idea": "Plain photographs and a long letter signed by the team carry the whole homepage"
+}

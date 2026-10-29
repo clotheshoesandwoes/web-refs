@@ -1,0 +1,30 @@
+{
+  "slug": "panic",
+  "url": "https://www.panic.com",
+  "finalUrl": "https://www.panic.com/",
+  "title": "Panic - We code apps, publish games, and make Playdate.",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [],
+    "fonts": [
+      "Booton",
+      "Hellix",
+      "space-mono"
+    ],
+    "canvases": [
+      "1440x1030"
+    ],
+    "weightKB": {
+      "total": 4968,
+      "js": 9,
+      "img": 4859,
+      "font": 84,
+      "video": 0
+    },
+    "requests": 77,
+    "reducedMotionCSS": true,
+    "server": "cloudflare · Cloudflare"
+  },
+  "name": "Panic",
+  "idea": "Three plain sentences say what Panic makes, and the icons of those things sit under each"
+}

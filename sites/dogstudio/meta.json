@@ -1,0 +1,30 @@
+{
+  "slug": "dogstudio",
+  "url": "https://dogstudio.co",
+  "finalUrl": "https://dogstudio.co/",
+  "title": "Dogstudio. Multidisciplinary Creative Studio.",
+  "name": "Dogstudio",
+  "idea": "The studio's name made literal: a sculpted dog that takes on each project's colours",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [],
+    "fonts": [
+      "Heebo",
+      "GT Sectra Display",
+      "Gilroy"
+    ],
+    "canvases": [
+      "1440x1190"
+    ],
+    "weightKB": {
+      "total": 7420,
+      "js": 521,
+      "img": 5258,
+      "font": 186,
+      "video": 0
+    },
+    "requests": 55,
+    "reducedMotionCSS": false,
+    "server": "cloudflare · Cloudflare"
+  }
+}

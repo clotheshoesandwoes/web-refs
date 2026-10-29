@@ -1,0 +1,29 @@
+{
+  "slug": "poolsuite",
+  "url": "https://poolsuite.net",
+  "finalUrl": "https://poolsuite.net/",
+  "title": "Now Playing on Poolsuite ☼: Poolsuite ON AIR",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [],
+    "fonts": [
+      "Pixolde",
+      "ChiKareGo2",
+      "Ishmeria",
+      "Everyday"
+    ],
+    "canvases": [],
+    "weightKB": {
+      "total": 4084,
+      "js": 1450,
+      "img": 2464,
+      "font": 63,
+      "video": 0
+    },
+    "requests": 98,
+    "reducedMotionCSS": false,
+    "server": "Netlify · Netlify"
+  },
+  "name": "Poolsuite",
+  "idea": "A late-90s desktop: the radio is an app window, sections are dock icons, the year is 1997"
+}

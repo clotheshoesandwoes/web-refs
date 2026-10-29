@@ -1,0 +1,36 @@
+{
+  "slug": "immersive-garden",
+  "url": "https://www.immersive-g.com",
+  "finalUrl": "https://immersive-g.com/",
+  "title": "Immersive Garden",
+  "name": "Immersive Garden",
+  "idea": "The name as a plaster relief: birds and flowers that rise out of a grey wall",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [
+      "three.js r151",
+      "Nuxt"
+    ],
+    "fonts": [
+      "PSTimes",
+      "HelveticaNeueRegular"
+    ],
+    "canvases": [
+      "1440x900",
+      "360x360",
+      "360x360",
+      "360x360",
+      "360x360"
+    ],
+    "weightKB": {
+      "total": 21794,
+      "js": 806,
+      "img": 4656,
+      "font": 59,
+      "video": 0
+    },
+    "requests": 130,
+    "reducedMotionCSS": false,
+    "server": "Vercel · Vercel"
+  }
+}

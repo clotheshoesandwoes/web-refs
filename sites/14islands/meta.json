@@ -1,0 +1,33 @@
+{
+  "slug": "14islands",
+  "url": "https://www.14islands.com",
+  "finalUrl": "https://www.14islands.com/",
+  "title": "14islands | Creative design & technology agency",
+  "name": "14islands",
+  "idea": "Plain big type and real client screens; the 3D is spent only on showing the work",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [
+      "three.js r156",
+      "Lenis",
+      "Next.js"
+    ],
+    "fonts": [
+      "AftenScreen",
+      "BentonSans"
+    ],
+    "canvases": [
+      "1440x900"
+    ],
+    "weightKB": {
+      "total": 2765,
+      "js": 1133,
+      "img": 187,
+      "font": 73,
+      "video": 0
+    },
+    "requests": 103,
+    "reducedMotionCSS": true,
+    "server": "Vercel · Next.js · Vercel"
+  }
+}

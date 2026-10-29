@@ -1,0 +1,33 @@
+{
+  "slug": "garden-eight",
+  "url": "https://garden-eight.com",
+  "finalUrl": "https://garden-eight.com/",
+  "title": "Garden Eight",
+  "name": "Garden Eight",
+  "idea": "Playful but humble: clay-soft lizards and one strange serif on warm paper",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [
+      "three.js r133",
+      "GSAP 3.12.1",
+      "Nuxt"
+    ],
+    "fonts": [
+      "gunsan",
+      "lausanne"
+    ],
+    "canvases": [
+      "1440x900"
+    ],
+    "weightKB": {
+      "total": 1937,
+      "js": 470,
+      "img": 97,
+      "font": 119,
+      "video": 0
+    },
+    "requests": 75,
+    "reducedMotionCSS": false,
+    "server": "nginx"
+  }
+}

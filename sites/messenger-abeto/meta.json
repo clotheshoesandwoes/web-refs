@@ -1,0 +1,26 @@
+{
+  "slug": "messenger-abeto",
+  "url": "https://messenger.abeto.co",
+  "finalUrl": "https://messenger.abeto.co/",
+  "title": "Messenger",
+  "name": "Messenger (Abeto)",
+  "idea": "A tiny planet that needs its mail delivered, drawn like an inked comic",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [
+      "three.js r180"
+    ],
+    "fonts": [],
+    "canvases": [],
+    "weightKB": {
+      "total": 5734,
+      "js": 564,
+      "img": 2,
+      "font": 0,
+      "video": 0
+    },
+    "requests": 111,
+    "reducedMotionCSS": false,
+    "server": "cloudflare · Cloudflare"
+  }
+}

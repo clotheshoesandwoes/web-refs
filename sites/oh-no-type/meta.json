@@ -1,0 +1,31 @@
+{
+  "slug": "oh-no-type",
+  "url": "https://ohnotype.co",
+  "finalUrl": "https://ohnotype.co/",
+  "title": "OH no Type Company",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [],
+    "fonts": [
+      "Montreuil Bold",
+      "Camelion",
+      "Yumex Black",
+      "Forevs Regular",
+      "Covik Sans",
+      "Blazeface 18 Point",
+      "Vulf Mono",
+      "Obviously Compressed"
+    ],
+    "canvases": [],
+    "weightKB": {
+      "total": 217,
+      "js": 190,
+      "img": 0,
+      "font": 0,
+      "video": 0
+    },
+    "requests": 39,
+    "reducedMotionCSS": false,
+    "server": "cloudflare · Craft Commerce,Craft CMS · Cloudflare"
+  }
+}

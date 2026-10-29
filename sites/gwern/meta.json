@@ -1,0 +1,28 @@
+{
+  "slug": "gwern",
+  "url": "https://gwern.net",
+  "finalUrl": "https://gwern.net/",
+  "title": "Essays · Gwern.net",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [
+      "generator: Hakyll"
+    ],
+    "fonts": [
+      "Source Serif 4",
+      "Source Sans 3",
+      "IBM Plex Mono"
+    ],
+    "canvases": [],
+    "weightKB": {
+      "total": 875,
+      "js": 268,
+      "img": 147,
+      "font": 280,
+      "video": 0
+    },
+    "requests": 26,
+    "reducedMotionCSS": false,
+    "server": "cloudflare · Cloudflare"
+  }
+}

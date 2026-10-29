@@ -1,0 +1,35 @@
+{
+  "slug": "resn",
+  "url": "https://resn.co.nz",
+  "finalUrl": "https://resn.co.nz/",
+  "title": "Resn - Creative Digital Agency | Ideation, Design, and Development",
+  "name": "Resn",
+  "idea": "One faceted drop floating in the dark, and the only instruction is click and hold",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [
+      "three.js r84"
+    ],
+    "fonts": [
+      "Fort-Extralight",
+      "Fort-Light",
+      "Fort-Book",
+      "Fort-Medium"
+    ],
+    "canvases": [
+      "1440x900",
+      "1440x900",
+      "1440x900"
+    ],
+    "weightKB": {
+      "total": 27593,
+      "js": 4350,
+      "img": 13023,
+      "font": 158,
+      "video": 0
+    },
+    "requests": 131,
+    "reducedMotionCSS": false,
+    "server": "AmazonS3"
+  }
+}

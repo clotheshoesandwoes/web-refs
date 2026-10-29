@@ -1,0 +1,28 @@
+{
+  "slug": "teenage-engineering",
+  "url": "https://teenage.engineering",
+  "finalUrl": "https://teenage.engineering/",
+  "title": "teenage engineering",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [],
+    "fonts": [
+      "te-20",
+      "Unicode",
+      "TechnoType"
+    ],
+    "canvases": [],
+    "weightKB": {
+      "total": 701,
+      "js": 470,
+      "img": 2,
+      "font": 118,
+      "video": 0
+    },
+    "requests": 84,
+    "reducedMotionCSS": true,
+    "server": "AmazonS3"
+  },
+  "name": "teenage engineering",
+  "idea": "One product under one light; its long shadow runs down the page and becomes the layout"
+}

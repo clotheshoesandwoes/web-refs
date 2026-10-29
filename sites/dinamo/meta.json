@@ -1,0 +1,31 @@
+{
+  "slug": "dinamo",
+  "url": "https://abcdinamo.com",
+  "finalUrl": "https://abcdinamo.com/",
+  "title": "Home — Dinamo Typefaces",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [],
+    "fonts": [
+      "Monument Grotesk",
+      "Monument Grotesk Mono",
+      "DinamoLoading",
+      "bng-rg-A",
+      "cnt-nl-A",
+      "cnt-flt-A",
+      "cnt-hx-A",
+      "cnt-phl-A"
+    ],
+    "canvases": [],
+    "weightKB": {
+      "total": 186,
+      "js": 0,
+      "img": 102,
+      "font": 0,
+      "video": 0
+    },
+    "requests": 190,
+    "reducedMotionCSS": false,
+    "server": "nginx"
+  }
+}

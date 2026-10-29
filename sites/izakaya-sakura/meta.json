@@ -1,0 +1,27 @@
+{
+  "slug": "izakaya-sakura",
+  "url": "https://www.seankani.com/studio/clients/izakaya-sakura/",
+  "finalUrl": "https://www.seankani.com/studio/clients/izakaya-sakura/",
+  "title": "Izakaya Sakura — Convoy St, San Diego",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [],
+    "fonts": [
+      "Shippori Mincho",
+      "Zen Kaku Gothic New"
+    ],
+    "canvases": [],
+    "weightKB": {
+      "total": 181,
+      "js": 0,
+      "img": 1,
+      "font": 0,
+      "video": 0
+    },
+    "requests": 4,
+    "reducedMotionCSS": true,
+    "server": "cloudflare · Vercel · Cloudflare"
+  },
+  "name": "Izakaya Sakura",
+  "idea": "A printed izakaya menu: noren curtain on entry, orders counted in 正 tally strokes"
+}

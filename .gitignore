@@ -1,2 +1,5 @@
+node_modules/
+.frames/
+.shoot.log
 .DS_Store
 Thumbs.db

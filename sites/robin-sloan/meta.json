@@ -1,0 +1,27 @@
+{
+  "slug": "robin-sloan",
+  "url": "https://www.robinsloan.com",
+  "finalUrl": "https://www.robinsloan.com/",
+  "title": "Robin Sloan",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [
+      "generator: The very hands of Sloan"
+    ],
+    "fonts": [
+      "Kyrios",
+      "Trade Gothic Next"
+    ],
+    "canvases": [],
+    "weightKB": {
+      "total": 2195,
+      "js": 42,
+      "img": 1934,
+      "font": 207,
+      "video": 0
+    },
+    "requests": 7,
+    "reducedMotionCSS": false,
+    "server": "cloudflare · Cloudflare"
+  }
+}

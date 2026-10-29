@@ -1,0 +1,28 @@
+{
+  "slug": "maggie-appleton",
+  "url": "https://maggieappleton.com",
+  "finalUrl": "https://maggieappleton.com/",
+  "title": "Maggie Appleton",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [
+      "Astro"
+    ],
+    "fonts": [
+      "Lato",
+      "Canela Deck",
+      "Canela Text"
+    ],
+    "canvases": [],
+    "weightKB": {
+      "total": 298,
+      "js": 0,
+      "img": 90,
+      "font": 183,
+      "video": 0
+    },
+    "requests": 15,
+    "reducedMotionCSS": true,
+    "server": "Vercel · Vercel"
+  }
+}

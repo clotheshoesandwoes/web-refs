@@ -1,0 +1,29 @@
+{
+  "slug": "dishoom",
+  "url": "https://www.dishoom.com",
+  "finalUrl": "https://www.dishoom.com/",
+  "title": "Dishoom | Indian Restaurants | From Bombay with Love",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [
+      "Next.js"
+    ],
+    "fonts": [
+      "cheltenhamBT",
+      "gill-sans-nova"
+    ],
+    "canvases": [],
+    "weightKB": {
+      "total": 2667,
+      "js": 1273,
+      "img": 6,
+      "font": 114,
+      "video": 0
+    },
+    "requests": 232,
+    "reducedMotionCSS": true,
+    "server": "Vercel · Next.js · Vercel"
+  },
+  "name": "Dishoom",
+  "idea": "An old Bombay Irani café told like a travel book: street film, captioned photos, signage"
+}

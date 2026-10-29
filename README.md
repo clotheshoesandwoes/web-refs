@@ -1,3 +1,5 @@
+<p><a href="wall.md"><img src="media/wall.jpg" alt="Hero screens of every site in the library" width="100%"></a></p>
+
 # web-refs
 
 Sean's reference library for building websites that don't look AI-generated. The website chats read this before building a page.
@@ -11,17 +13,139 @@ Sean's reference library for building websites that don't look AI-generated. The
 
 The banned list in `~/.claude/CLAUDE.md` ("No AI UI slop") applies to everything here.
 
-**Adding a site:** make a folder at `sites/<name>/` containing 2–5 screenshots and a `teardown.md`. The teardown covers the idea, what you see, the stack (headers, view-source, bundle), why it works, what to steal and what not to steal. Copy the shape of the existing ones.
+**Adding a site:**
+
+1. Add a line to `tools/sites.tsv` (group, slug, url, shoot options).
+2. Run `npm install` once, then `./tools/shoot-all.sh <slug>`. Headless Chrome captures the hero, scroll stills, a phone shot, motion frames and a stack fingerprint into `sites/<slug>/`. Cookie banners are hidden, never accepted.
+3. Write `sites/<slug>/teardown.md`: the idea, what you see, the stack, steal, don't steal. Copy the shape of any existing one, and add `name` and `idea` to its `meta.json`.
+4. Run `python tools/gallery.py`. It rebuilds the cards, motion previews, the wall, this README's grid, `wall.md`, the prev/next links and the offline viewer's data.
 
 Links and GitHub stats were checked on 2026-10-28.
 
-## Sites
+<!-- gallery:start -->
 
-| Site | The one idea | Folder |
-|---|---|---|
-| Izakaya Sakura (house standard) | A printed menu: noren curtain on entry, 正 tally strokes for orders | [sites/izakaya-sakura](sites/izakaya-sakura/teardown.md) |
-| seanblundin.com | The site is a TV, and every page is a channel | [sites/seanblundin](sites/seanblundin/teardown.md) |
-| activetheory.net | One continuous 3D world, held to "why is this in WebGL at all?" | [sites/activetheory](sites/activetheory/teardown.md) |
+**36 sites, 201 screenshots.** Click any card for the teardown: every screenshot, a motion preview, the stack, what to steal and what not to.
+
+Jump to:
+
+- [House standard](#house-standard) (1)
+- [Worlds](#worlds) (14)
+- [Type foundries and editorial](#type-foundries-and-editorial) (7)
+- [Writing and personal sites](#writing-and-personal-sites) (6)
+- [Products, radio and genre pieces](#products-radio-and-genre-pieces) (6)
+- [Restaurants](#restaurants) (2)
+- [Every screen on one page](wall.md)
+- [Our own Hydra](hydra.md) and the kit, [stage](https://github.com/clotheshoesandwoes/stage)
+- [Brief template](briefs/template.md)
+- Offline: open `gallery.html` from this folder (arrow keys flip through everything)
+
+## House standard
+
+The page that passed review. Everything else is measured against it.
+
+<table>
+<tr>
+<td width="33%" valign="top"><a href="sites/izakaya-sakura/teardown.md"><img src="sites/izakaya-sakura/card.jpg" width="100%" alt="Izakaya Sakura"></a><br><b><a href="sites/izakaya-sakura/teardown.md">Izakaya Sakura</a></b><br><sub>A printed izakaya menu: noren curtain on entry, orders counted in 正 tally strokes</sub></td>
+</tr>
+</table>
+
+## Worlds
+
+Real-time 3D. Look at what each one spends its WebGL on.
+
+<table>
+<tr>
+<td width="33%" valign="top"><a href="sites/activetheory/teardown.md"><img src="sites/activetheory/card.jpg" width="100%" alt="Active Theory"></a><br><b><a href="sites/activetheory/teardown.md">Active Theory</a></b><br><sub>One continuous 3D world, held to: why is this in WebGL at all?</sub></td>
+<td width="33%" valign="top"><a href="sites/seanblundin/teardown.md"><img src="sites/seanblundin/card.jpg" width="100%" alt="Sean Blundin"></a><br><b><a href="sites/seanblundin/teardown.md">Sean Blundin</a></b><br><sub>The site is a TV and every page is a channel</sub></td>
+<td width="33%" valign="top"><a href="sites/lusion/teardown.md"><img src="sites/lusion/card.jpg" width="100%" alt="Lusion"></a><br><b><a href="sites/lusion/teardown.md">Lusion</a></b><br><sub>A 3D studio opens on a heap of rendered parts, then steps aside for the work</sub></td>
+</tr>
+<tr>
+<td width="33%" valign="top"><a href="sites/igloo-inc/teardown.md"><img src="sites/igloo-inc/card.jpg" width="100%" alt="Igloo Inc."></a><br><b><a href="sites/igloo-inc/teardown.md">Igloo Inc.</a></b><br><sub>An igloo built from ice blocks, and each portfolio company is frozen inside one</sub></td>
+<td width="33%" valign="top"><a href="sites/bruno-simon/teardown.md"><img src="sites/bruno-simon/card.jpg" width="100%" alt="Bruno Simon"></a><br><b><a href="sites/bruno-simon/teardown.md">Bruno Simon</a></b><br><sub>The portfolio is a toy world you drive a car through</sub></td>
+<td width="33%" valign="top"><a href="sites/dogstudio/teardown.md"><img src="sites/dogstudio/card.jpg" width="100%" alt="Dogstudio"></a><br><b><a href="sites/dogstudio/teardown.md">Dogstudio</a></b><br><sub>The studio's name made literal: a sculpted dog that takes on each project's colours</sub></td>
+</tr>
+<tr>
+<td width="33%" valign="top"><a href="sites/unseen/teardown.md"><img src="sites/unseen/card.jpg" width="100%" alt="Unseen Studio"></a><br><b><a href="sites/unseen/teardown.md">Unseen Studio</a></b><br><sub>The homepage is a pastel world you drag through, not a page you scroll</sub></td>
+<td width="33%" valign="top"><a href="sites/immersive-garden/teardown.md"><img src="sites/immersive-garden/card.jpg" width="100%" alt="Immersive Garden"></a><br><b><a href="sites/immersive-garden/teardown.md">Immersive Garden</a></b><br><sub>The name as a plaster relief: birds and flowers that rise out of a grey wall</sub></td>
+<td width="33%" valign="top"><a href="sites/messenger-abeto/teardown.md"><img src="sites/messenger-abeto/card.jpg" width="100%" alt="Messenger (Abeto)"></a><br><b><a href="sites/messenger-abeto/teardown.md">Messenger (Abeto)</a></b><br><sub>A tiny planet that needs its mail delivered, drawn like an inked comic</sub></td>
+</tr>
+<tr>
+<td width="33%" valign="top"><a href="sites/oryzo/teardown.md"><img src="sites/oryzo/card.jpg" width="100%" alt="Oryzo"></a><br><b><a href="sites/oryzo/teardown.md">Oryzo</a></b><br><sub>Sell a cork coaster like an AI model launch, to prove the studio can sell anything</sub></td>
+<td width="33%" valign="top"><a href="sites/garden-eight/teardown.md"><img src="sites/garden-eight/card.jpg" width="100%" alt="Garden Eight"></a><br><b><a href="sites/garden-eight/teardown.md">Garden Eight</a></b><br><sub>Playful but humble: clay-soft lizards and one strange serif on warm paper</sub></td>
+<td width="33%" valign="top"><a href="sites/resn/teardown.md"><img src="sites/resn/card.jpg" width="100%" alt="Resn"></a><br><b><a href="sites/resn/teardown.md">Resn</a></b><br><sub>One faceted drop floating in the dark, and the only instruction is click and hold</sub></td>
+</tr>
+<tr>
+<td width="33%" valign="top"><a href="sites/14islands/teardown.md"><img src="sites/14islands/card.jpg" width="100%" alt="14islands"></a><br><b><a href="sites/14islands/teardown.md">14islands</a></b><br><sub>Plain big type and real client screens; the 3D is spent only on showing the work</sub></td>
+<td width="33%" valign="top"><a href="sites/samsy/teardown.md"><img src="sites/samsy/card.jpg" width="100%" alt="Samsy"></a><br><b><a href="sites/samsy/teardown.md">Samsy</a></b><br><sub>The portfolio is a game, and the first screen teaches you the controls</sub></td>
+</tr>
+</table>
+
+## Type foundries and editorial
+
+Foundries and publishers: the best typesetting on the web lives here.
+
+<table>
+<tr>
+<td width="33%" valign="top"><a href="sites/klim/teardown.md"><img src="sites/klim/card.jpg" width="100%" alt="klim"></a><br><b><a href="sites/klim/teardown.md">klim</a></b><br><sub></sub></td>
+<td width="33%" valign="top"><a href="sites/grilli-type/teardown.md"><img src="sites/grilli-type/card.jpg" width="100%" alt="grilli-type"></a><br><b><a href="sites/grilli-type/teardown.md">grilli-type</a></b><br><sub></sub></td>
+<td width="33%" valign="top"><a href="sites/dinamo/teardown.md"><img src="sites/dinamo/card.jpg" width="100%" alt="dinamo"></a><br><b><a href="sites/dinamo/teardown.md">dinamo</a></b><br><sub></sub></td>
+</tr>
+<tr>
+<td width="33%" valign="top"><a href="sites/oh-no-type/teardown.md"><img src="sites/oh-no-type/card.jpg" width="100%" alt="oh-no-type"></a><br><b><a href="sites/oh-no-type/teardown.md">oh-no-type</a></b><br><sub></sub></td>
+<td width="33%" valign="top"><a href="sites/commercial-type/teardown.md"><img src="sites/commercial-type/card.jpg" width="100%" alt="commercial-type"></a><br><b><a href="sites/commercial-type/teardown.md">commercial-type</a></b><br><sub></sub></td>
+<td width="33%" valign="top"><a href="sites/stripe-press/teardown.md"><img src="sites/stripe-press/card.jpg" width="100%" alt="stripe-press"></a><br><b><a href="sites/stripe-press/teardown.md">stripe-press</a></b><br><sub></sub></td>
+</tr>
+<tr>
+<td width="33%" valign="top"><a href="sites/the-pudding/teardown.md"><img src="sites/the-pudding/card.jpg" width="100%" alt="the-pudding"></a><br><b><a href="sites/the-pudding/teardown.md">the-pudding</a></b><br><sub></sub></td>
+</tr>
+</table>
+
+## Writing and personal sites
+
+Personal sites where the person is the subject.
+
+<table>
+<tr>
+<td width="33%" valign="top"><a href="sites/gwern/teardown.md"><img src="sites/gwern/card.jpg" width="100%" alt="gwern"></a><br><b><a href="sites/gwern/teardown.md">gwern</a></b><br><sub></sub></td>
+<td width="33%" valign="top"><a href="sites/robin-sloan/teardown.md"><img src="sites/robin-sloan/card.jpg" width="100%" alt="robin-sloan"></a><br><b><a href="sites/robin-sloan/teardown.md">robin-sloan</a></b><br><sub></sub></td>
+<td width="33%" valign="top"><a href="sites/craig-mod/teardown.md"><img src="sites/craig-mod/card.jpg" width="100%" alt="craig-mod"></a><br><b><a href="sites/craig-mod/teardown.md">craig-mod</a></b><br><sub></sub></td>
+</tr>
+<tr>
+<td width="33%" valign="top"><a href="sites/rauno/teardown.md"><img src="sites/rauno/card.jpg" width="100%" alt="rauno"></a><br><b><a href="sites/rauno/teardown.md">rauno</a></b><br><sub></sub></td>
+<td width="33%" valign="top"><a href="sites/maggie-appleton/teardown.md"><img src="sites/maggie-appleton/card.jpg" width="100%" alt="maggie-appleton"></a><br><b><a href="sites/maggie-appleton/teardown.md">maggie-appleton</a></b><br><sub></sub></td>
+<td width="33%" valign="top"><a href="sites/ciechanowski-watch/teardown.md"><img src="sites/ciechanowski-watch/card.jpg" width="100%" alt="ciechanowski-watch"></a><br><b><a href="sites/ciechanowski-watch/teardown.md">ciechanowski-watch</a></b><br><sub></sub></td>
+</tr>
+</table>
+
+## Products, radio and genre pieces
+
+Products and brands whose sites behave like the thing they sell.
+
+<table>
+<tr>
+<td width="33%" valign="top"><a href="sites/playdate/teardown.md"><img src="sites/playdate/card.jpg" width="100%" alt="Playdate"></a><br><b><a href="sites/playdate/teardown.md">Playdate</a></b><br><sub>A real 3D Playdate plays its own games on screen and flips its crank open as you scroll</sub></td>
+<td width="33%" valign="top"><a href="sites/teenage-engineering/teardown.md"><img src="sites/teenage-engineering/card.jpg" width="100%" alt="teenage engineering"></a><br><b><a href="sites/teenage-engineering/teardown.md">teenage engineering</a></b><br><sub>One product under one light; its long shadow runs down the page and becomes the layout</sub></td>
+<td width="33%" valign="top"><a href="sites/poolsuite/teardown.md"><img src="sites/poolsuite/card.jpg" width="100%" alt="Poolsuite"></a><br><b><a href="sites/poolsuite/teardown.md">Poolsuite</a></b><br><sub>A late-90s desktop: the radio is an app window, sections are dock icons, the year is 1997</sub></td>
+</tr>
+<tr>
+<td width="33%" valign="top"><a href="sites/nts/teardown.md"><img src="sites/nts/card.jpg" width="100%" alt="NTS"></a><br><b><a href="sites/nts/teardown.md">NTS</a></b><br><sub>A radio that is always on: two live channels stay pinned under the nav on every page</sub></td>
+<td width="33%" valign="top"><a href="sites/panic/teardown.md"><img src="sites/panic/card.jpg" width="100%" alt="Panic"></a><br><b><a href="sites/panic/teardown.md">Panic</a></b><br><sub>Three plain sentences say what Panic makes, and the icons of those things sit under each</sub></td>
+<td width="33%" valign="top"><a href="sites/shopify-editions/teardown.md"><img src="sites/shopify-editions/card.jpg" width="100%" alt="Shopify Editions Winter '26"></a><br><b><a href="sites/shopify-editions/teardown.md">Shopify Editions Winter '26</a></b><br><sub>A product changelog staged as a Renaissance painting, in twelve Roman-numeral chapters</sub></td>
+</tr>
+</table>
+
+## Restaurants
+
+Restaurant sites, for the studio.
+
+<table>
+<tr>
+<td width="33%" valign="top"><a href="sites/dishoom/teardown.md"><img src="sites/dishoom/card.jpg" width="100%" alt="Dishoom"></a><br><b><a href="sites/dishoom/teardown.md">Dishoom</a></b><br><sub>An old Bombay Irani café told like a travel book: street film, captioned photos, signage</sub></td>
+<td width="33%" valign="top"><a href="sites/noma/teardown.md"><img src="sites/noma/card.jpg" width="100%" alt="noma"></a><br><b><a href="sites/noma/teardown.md">noma</a></b><br><sub>Plain photographs and a long letter signed by the team carry the whole homepage</sub></td>
+</tr>
+</table>
+
+<!-- gallery:end -->
 
 ## Building our own Hydra
 

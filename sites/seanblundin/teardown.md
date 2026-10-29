@@ -1,12 +1,22 @@
 # seanblundin.com
 
+<!-- gallery:start -->
+<p><a href="../../README.md#worlds">All sites</a> &nbsp;&nbsp; <a href="../activetheory/teardown.md">&larr; Active Theory</a> &nbsp;&nbsp; <a href="../lusion/teardown.md">Lusion &rarr;</a> &nbsp;&nbsp; <a href="https://seanblundin.com">Open the live site</a></p>
+<p><img src="motion.webp" width="100%" alt="Sean Blundin, first seconds with the cursor moving"></p>
+<!-- gallery:end -->
+
 Looked at on 2026-10-28.
 
 **The idea:** the site is a TV, and every page is a channel.
 
-![TV intro](01-tv-intro.jpg) ![Ink home](02-ink-home.jpg)
-![websites channel](03-websites-channel.jpg) ![apps channel](04-apps-channel.jpg)
-![consulting channel](05-consulting-channel.jpg) ![test card loader](06-test-card-loader.jpg)
+![The ink home after the intro](01-hero.jpg)
+![The CRT set in a dark room, first second of the intro](x-tv-intro.jpg)
+![Watercolour ink stirred by the cursor](x-ink-home.jpg)
+![websites channel: a 1999 Geocities parody](x-websites-channel.jpg)
+![apps channel: pixel dirt and stars](x-apps-channel.jpg)
+![consulting channel: a chalkboard in a classroom](x-consulting-channel.jpg)
+![The test card loader, Please stand by](x-test-card-loader.jpg)
+![Phone](phone.jpg)
 
 ## What you see
 

@@ -1,0 +1,27 @@
+{
+  "slug": "craig-mod",
+  "url": "https://craigmod.com",
+  "finalUrl": "https://craigmod.com/",
+  "title": "Craig Mod — Writer + Photographer",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [
+      "generator: Hugo 0.166.0"
+    ],
+    "fonts": [
+      "ff-meta-web-pro-1",
+      "ff-meta-serif-web-pro-1"
+    ],
+    "canvases": [],
+    "weightKB": {
+      "total": 828,
+      "js": 20,
+      "img": 758,
+      "font": 0,
+      "video": 0
+    },
+    "requests": 27,
+    "reducedMotionCSS": true,
+    "server": "cloudflare · Cloudflare"
+  }
+}

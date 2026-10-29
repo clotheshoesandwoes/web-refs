@@ -1,0 +1,32 @@
+{
+  "slug": "unseen",
+  "url": "https://unseen.co",
+  "finalUrl": "https://unseen.co/",
+  "title": "Unseen Studio® – Brand, Digital & Motion",
+  "name": "Unseen Studio",
+  "idea": "The homepage is a pastel world you drag through, not a page you scroll",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [
+      "three.js r143",
+      "WordPress"
+    ],
+    "fonts": [
+      "Neue Montreal",
+      "Saol Display"
+    ],
+    "canvases": [
+      "1440x900"
+    ],
+    "weightKB": {
+      "total": 7154,
+      "js": 413,
+      "img": 2025,
+      "font": 96,
+      "video": 948
+    },
+    "requests": 125,
+    "reducedMotionCSS": false,
+    "server": "nginx-rc"
+  }
+}

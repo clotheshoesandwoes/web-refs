@@ -1,0 +1,31 @@
+{
+  "slug": "commercial-type",
+  "url": "https://www.commercialtype.com",
+  "finalUrl": "https://commercialtype.com/",
+  "title": "Commercial Type",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [
+      "generator: GrayMatter"
+    ],
+    "fonts": [
+      "Styrene UI A",
+      "Styrene UI B",
+      "Spectator Upright",
+      "Spectator Italic",
+      "New Doric Upright",
+      "Action Grotesque Upright"
+    ],
+    "canvases": [],
+    "weightKB": {
+      "total": 4135,
+      "js": 556,
+      "img": 2330,
+      "font": 1023,
+      "video": 0
+    },
+    "requests": 140,
+    "reducedMotionCSS": false,
+    "server": "nginx/1.26.3 + Phusion Passenger(R) 6.0.27"
+  }
+}

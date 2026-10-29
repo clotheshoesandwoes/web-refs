@@ -1,0 +1,28 @@
+{
+  "slug": "the-pudding",
+  "url": "https://pudding.cool",
+  "finalUrl": "https://pudding.cool/",
+  "title": "The Pudding",
+  "captured": "2026-10-29",
+  "stack": {
+    "libs": [
+      "Svelte"
+    ],
+    "fonts": [
+      "Atlas Grotesk",
+      "Atlas Typewriter",
+      "Gooper SemiCondensed"
+    ],
+    "canvases": [],
+    "weightKB": {
+      "total": 3769,
+      "js": 67,
+      "img": 3204,
+      "font": 420,
+      "video": 0
+    },
+    "requests": 79,
+    "reducedMotionCSS": true,
+    "server": "AmazonS3"
+  }
+}
