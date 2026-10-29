@@ -488,8 +488,8 @@ window.SITES = [
  },
  {
   "slug": "klim",
-  "name": "klim",
-  "idea": "",
+  "name": "Klim Type Foundry",
+  "idea": "The home page is a run of full-screen campaigns, one per typeface",
   "url": "https://klim.co.nz",
   "group": "type",
   "shots": [
@@ -521,8 +521,8 @@ window.SITES = [
  },
  {
   "slug": "grilli-type",
-  "name": "grilli-type",
-  "idea": "",
+  "name": "Grilli Type",
+  "idea": "A Swiss ruled index where every typeface name is set in its own face",
   "url": "https://www.grillitype.com",
   "group": "type",
   "shots": [
@@ -558,8 +558,8 @@ window.SITES = [
  },
  {
   "slug": "dinamo",
-  "name": "dinamo",
-  "idea": "",
+  "name": "Dinamo",
+  "idea": "A type shop run like a fan club, with everything set big in the house grotesk",
   "url": "https://abcdinamo.com",
   "group": "type",
   "shots": [
@@ -595,8 +595,8 @@ window.SITES = [
  },
  {
   "slug": "oh-no-type",
-  "name": "oh-no-type",
-  "idea": "",
+  "name": "OH no Type Company",
+  "idea": "A shop window of black-and-white specimen art, each piece tagged with its font and price",
   "url": "https://ohnotype.co",
   "group": "type",
   "shots": [
@@ -632,8 +632,8 @@ window.SITES = [
  },
  {
   "slug": "commercial-type",
-  "name": "commercial-type",
-  "idea": "",
+  "name": "Commercial Type",
+  "idea": "A stack of colour bands, each with one family's name set live in that family",
   "url": "https://www.commercialtype.com",
   "group": "type",
   "shots": [
@@ -669,8 +669,8 @@ window.SITES = [
  },
  {
   "slug": "stripe-press",
-  "name": "stripe-press",
-  "idea": "",
+  "name": "Stripe Press",
+  "idea": "The catalogue is a stack of the actual books, spines out, rendered in 3D",
   "url": "https://press.stripe.com",
   "group": "type",
   "shots": [
@@ -703,8 +703,8 @@ window.SITES = [
  },
  {
   "slug": "the-pudding",
-  "name": "the-pudding",
-  "idea": "",
+  "name": "The Pudding",
+  "idea": "A numbered back catalogue where every thumbnail is a real frame from the story",
   "url": "https://pudding.cool",
   "group": "type",
   "shots": [
@@ -737,8 +737,8 @@ window.SITES = [
  },
  {
   "slug": "gwern",
-  "name": "gwern",
-  "idea": "",
+  "name": "Gwern.net",
+  "idea": "An essay archive typeset like a scholarly book: justified serif, small caps, fleurons",
   "url": "https://gwern.net",
   "group": "writing",
   "shots": [
@@ -770,8 +770,8 @@ window.SITES = [
  },
  {
   "slug": "robin-sloan",
-  "name": "robin-sloan",
-  "idea": "",
+  "name": "Robin Sloan",
+  "idea": "A home page that aims for the printed page: one justified sheet and a directory",
   "url": "https://www.robinsloan.com",
   "group": "writing",
   "shots": [
@@ -802,8 +802,8 @@ window.SITES = [
  },
  {
   "slug": "craig-mod",
-  "name": "craig-mod",
-  "idea": "",
+  "name": "Craig Mod",
+  "idea": "Sell the printed books with photos of the real objects and words from real readers",
   "url": "https://craigmod.com",
   "group": "writing",
   "shots": [
@@ -834,8 +834,8 @@ window.SITES = [
  },
  {
   "slug": "rauno",
-  "name": "rauno",
-  "idea": "",
+  "name": "Rauno Freiberg",
+  "idea": "The portfolio is one interaction: scrolling moves a sideways reel of big-type slides",
   "url": "https://rauno.me",
   "group": "writing",
   "shots": [
@@ -865,8 +865,8 @@ window.SITES = [
  },
  {
   "slug": "maggie-appleton",
-  "name": "maggie-appleton",
-  "idea": "",
+  "name": "Maggie Appleton",
+  "idea": "A digital garden: notes marked by growth stage, essays carried by her own drawings",
   "url": "https://maggieappleton.com",
   "group": "writing",
   "shots": [
@@ -898,8 +898,8 @@ window.SITES = [
  },
  {
   "slug": "ciechanowski-watch",
-  "name": "ciechanowski-watch",
-  "idea": "",
+  "name": "Mechanical Watch, Bartosz Ciechanowski",
+  "idea": "Explain a watch by building it: live 3D demos, with each part's name coloured to match",
   "url": "https://ciechanow.ski/mechanical-watch/",
   "group": "writing",
   "shots": [

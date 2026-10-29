@@ -70,57 +70,57 @@ All 201 screenshots. Click any image for full size, or a name for the teardown.
 
 ## Type foundries and editorial
 
-### [klim](sites/klim/teardown.md)
+### [Klim Type Foundry](sites/klim/teardown.md)
 
 <a href="sites/klim/01-hero.jpg"><img src="sites/klim/t/01-hero.jpg" width="240"></a> <a href="sites/klim/02-scroll.jpg"><img src="sites/klim/t/02-scroll.jpg" width="240"></a> <a href="sites/klim/03-scroll.jpg"><img src="sites/klim/t/03-scroll.jpg" width="240"></a> <a href="sites/klim/04-scroll.jpg"><img src="sites/klim/t/04-scroll.jpg" width="240"></a> <a href="sites/klim/05-scroll.jpg"><img src="sites/klim/t/05-scroll.jpg" width="240"></a> <a href="sites/klim/phone.jpg"><img src="sites/klim/t/phone.jpg" width="120"></a>
 
-### [grilli-type](sites/grilli-type/teardown.md)
+### [Grilli Type](sites/grilli-type/teardown.md)
 
 <a href="sites/grilli-type/01-hero.jpg"><img src="sites/grilli-type/t/01-hero.jpg" width="240"></a> <a href="sites/grilli-type/02-scroll.jpg"><img src="sites/grilli-type/t/02-scroll.jpg" width="240"></a> <a href="sites/grilli-type/03-scroll.jpg"><img src="sites/grilli-type/t/03-scroll.jpg" width="240"></a> <a href="sites/grilli-type/04-scroll.jpg"><img src="sites/grilli-type/t/04-scroll.jpg" width="240"></a> <a href="sites/grilli-type/05-scroll.jpg"><img src="sites/grilli-type/t/05-scroll.jpg" width="240"></a> <a href="sites/grilli-type/phone.jpg"><img src="sites/grilli-type/t/phone.jpg" width="120"></a>
 
-### [dinamo](sites/dinamo/teardown.md)
+### [Dinamo](sites/dinamo/teardown.md)
 
 <a href="sites/dinamo/01-hero.jpg"><img src="sites/dinamo/t/01-hero.jpg" width="240"></a> <a href="sites/dinamo/02-scroll.jpg"><img src="sites/dinamo/t/02-scroll.jpg" width="240"></a> <a href="sites/dinamo/03-scroll.jpg"><img src="sites/dinamo/t/03-scroll.jpg" width="240"></a> <a href="sites/dinamo/04-scroll.jpg"><img src="sites/dinamo/t/04-scroll.jpg" width="240"></a> <a href="sites/dinamo/05-scroll.jpg"><img src="sites/dinamo/t/05-scroll.jpg" width="240"></a> <a href="sites/dinamo/phone.jpg"><img src="sites/dinamo/t/phone.jpg" width="120"></a>
 
-### [oh-no-type](sites/oh-no-type/teardown.md)
+### [OH no Type Company](sites/oh-no-type/teardown.md)
 
 <a href="sites/oh-no-type/01-hero.jpg"><img src="sites/oh-no-type/t/01-hero.jpg" width="240"></a> <a href="sites/oh-no-type/02-scroll.jpg"><img src="sites/oh-no-type/t/02-scroll.jpg" width="240"></a> <a href="sites/oh-no-type/03-scroll.jpg"><img src="sites/oh-no-type/t/03-scroll.jpg" width="240"></a> <a href="sites/oh-no-type/04-scroll.jpg"><img src="sites/oh-no-type/t/04-scroll.jpg" width="240"></a> <a href="sites/oh-no-type/05-scroll.jpg"><img src="sites/oh-no-type/t/05-scroll.jpg" width="240"></a> <a href="sites/oh-no-type/phone.jpg"><img src="sites/oh-no-type/t/phone.jpg" width="120"></a>
 
-### [commercial-type](sites/commercial-type/teardown.md)
+### [Commercial Type](sites/commercial-type/teardown.md)
 
 <a href="sites/commercial-type/01-hero.jpg"><img src="sites/commercial-type/t/01-hero.jpg" width="240"></a> <a href="sites/commercial-type/02-scroll.jpg"><img src="sites/commercial-type/t/02-scroll.jpg" width="240"></a> <a href="sites/commercial-type/03-scroll.jpg"><img src="sites/commercial-type/t/03-scroll.jpg" width="240"></a> <a href="sites/commercial-type/04-scroll.jpg"><img src="sites/commercial-type/t/04-scroll.jpg" width="240"></a> <a href="sites/commercial-type/05-scroll.jpg"><img src="sites/commercial-type/t/05-scroll.jpg" width="240"></a> <a href="sites/commercial-type/phone.jpg"><img src="sites/commercial-type/t/phone.jpg" width="120"></a>
 
-### [stripe-press](sites/stripe-press/teardown.md)
+### [Stripe Press](sites/stripe-press/teardown.md)
 
 <a href="sites/stripe-press/01-hero.jpg"><img src="sites/stripe-press/t/01-hero.jpg" width="240"></a> <a href="sites/stripe-press/02-scroll.jpg"><img src="sites/stripe-press/t/02-scroll.jpg" width="240"></a> <a href="sites/stripe-press/03-scroll.jpg"><img src="sites/stripe-press/t/03-scroll.jpg" width="240"></a> <a href="sites/stripe-press/04-scroll.jpg"><img src="sites/stripe-press/t/04-scroll.jpg" width="240"></a> <a href="sites/stripe-press/05-scroll.jpg"><img src="sites/stripe-press/t/05-scroll.jpg" width="240"></a> <a href="sites/stripe-press/phone.jpg"><img src="sites/stripe-press/t/phone.jpg" width="120"></a>
 
-### [the-pudding](sites/the-pudding/teardown.md)
+### [The Pudding](sites/the-pudding/teardown.md)
 
 <a href="sites/the-pudding/01-hero.jpg"><img src="sites/the-pudding/t/01-hero.jpg" width="240"></a> <a href="sites/the-pudding/02-scroll.jpg"><img src="sites/the-pudding/t/02-scroll.jpg" width="240"></a> <a href="sites/the-pudding/03-scroll.jpg"><img src="sites/the-pudding/t/03-scroll.jpg" width="240"></a> <a href="sites/the-pudding/04-scroll.jpg"><img src="sites/the-pudding/t/04-scroll.jpg" width="240"></a> <a href="sites/the-pudding/05-scroll.jpg"><img src="sites/the-pudding/t/05-scroll.jpg" width="240"></a> <a href="sites/the-pudding/phone.jpg"><img src="sites/the-pudding/t/phone.jpg" width="120"></a>
 
 ## Writing and personal sites
 
-### [gwern](sites/gwern/teardown.md)
+### [Gwern.net](sites/gwern/teardown.md)
 
 <a href="sites/gwern/01-hero.jpg"><img src="sites/gwern/t/01-hero.jpg" width="240"></a> <a href="sites/gwern/02-scroll.jpg"><img src="sites/gwern/t/02-scroll.jpg" width="240"></a> <a href="sites/gwern/03-scroll.jpg"><img src="sites/gwern/t/03-scroll.jpg" width="240"></a> <a href="sites/gwern/04-scroll.jpg"><img src="sites/gwern/t/04-scroll.jpg" width="240"></a> <a href="sites/gwern/phone.jpg"><img src="sites/gwern/t/phone.jpg" width="120"></a>
 
-### [robin-sloan](sites/robin-sloan/teardown.md)
+### [Robin Sloan](sites/robin-sloan/teardown.md)
 
 <a href="sites/robin-sloan/01-hero.jpg"><img src="sites/robin-sloan/t/01-hero.jpg" width="240"></a> <a href="sites/robin-sloan/02-scroll.jpg"><img src="sites/robin-sloan/t/02-scroll.jpg" width="240"></a> <a href="sites/robin-sloan/03-scroll.jpg"><img src="sites/robin-sloan/t/03-scroll.jpg" width="240"></a> <a href="sites/robin-sloan/04-scroll.jpg"><img src="sites/robin-sloan/t/04-scroll.jpg" width="240"></a> <a href="sites/robin-sloan/phone.jpg"><img src="sites/robin-sloan/t/phone.jpg" width="120"></a>
 
-### [craig-mod](sites/craig-mod/teardown.md)
+### [Craig Mod](sites/craig-mod/teardown.md)
 
 <a href="sites/craig-mod/01-hero.jpg"><img src="sites/craig-mod/t/01-hero.jpg" width="240"></a> <a href="sites/craig-mod/02-scroll.jpg"><img src="sites/craig-mod/t/02-scroll.jpg" width="240"></a> <a href="sites/craig-mod/03-scroll.jpg"><img src="sites/craig-mod/t/03-scroll.jpg" width="240"></a> <a href="sites/craig-mod/04-scroll.jpg"><img src="sites/craig-mod/t/04-scroll.jpg" width="240"></a> <a href="sites/craig-mod/phone.jpg"><img src="sites/craig-mod/t/phone.jpg" width="120"></a>
 
-### [rauno](sites/rauno/teardown.md)
+### [Rauno Freiberg](sites/rauno/teardown.md)
 
 <a href="sites/rauno/01-hero.jpg"><img src="sites/rauno/t/01-hero.jpg" width="240"></a> <a href="sites/rauno/02-scroll.jpg"><img src="sites/rauno/t/02-scroll.jpg" width="240"></a> <a href="sites/rauno/03-scroll.jpg"><img src="sites/rauno/t/03-scroll.jpg" width="240"></a> <a href="sites/rauno/04-scroll.jpg"><img src="sites/rauno/t/04-scroll.jpg" width="240"></a> <a href="sites/rauno/phone.jpg"><img src="sites/rauno/t/phone.jpg" width="120"></a>
 
-### [maggie-appleton](sites/maggie-appleton/teardown.md)
+### [Maggie Appleton](sites/maggie-appleton/teardown.md)
 
 <a href="sites/maggie-appleton/01-hero.jpg"><img src="sites/maggie-appleton/t/01-hero.jpg" width="240"></a> <a href="sites/maggie-appleton/02-scroll.jpg"><img src="sites/maggie-appleton/t/02-scroll.jpg" width="240"></a> <a href="sites/maggie-appleton/03-scroll.jpg"><img src="sites/maggie-appleton/t/03-scroll.jpg" width="240"></a> <a href="sites/maggie-appleton/04-scroll.jpg"><img src="sites/maggie-appleton/t/04-scroll.jpg" width="240"></a> <a href="sites/maggie-appleton/phone.jpg"><img src="sites/maggie-appleton/t/phone.jpg" width="120"></a>
 
-### [ciechanowski-watch](sites/ciechanowski-watch/teardown.md)
+### [Mechanical Watch, Bartosz Ciechanowski](sites/ciechanowski-watch/teardown.md)
 
 <a href="sites/ciechanowski-watch/01-hero.jpg"><img src="sites/ciechanowski-watch/t/01-hero.jpg" width="240"></a> <a href="sites/ciechanowski-watch/02-scroll.jpg"><img src="sites/ciechanowski-watch/t/02-scroll.jpg" width="240"></a> <a href="sites/ciechanowski-watch/03-scroll.jpg"><img src="sites/ciechanowski-watch/t/03-scroll.jpg" width="240"></a> <a href="sites/ciechanowski-watch/04-scroll.jpg"><img src="sites/ciechanowski-watch/t/04-scroll.jpg" width="240"></a> <a href="sites/ciechanowski-watch/05-scroll.jpg"><img src="sites/ciechanowski-watch/t/05-scroll.jpg" width="240"></a> <a href="sites/ciechanowski-watch/06-scroll.jpg"><img src="sites/ciechanowski-watch/t/06-scroll.jpg" width="240"></a> <a href="sites/ciechanowski-watch/phone.jpg"><img src="sites/ciechanowski-watch/t/phone.jpg" width="120"></a>
 

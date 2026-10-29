@@ -22,5 +22,7 @@
     "requests": 32,
     "reducedMotionCSS": false,
     "server": "Vercel · Vercel"
-  }
+  },
+  "name": "Rauno Freiberg",
+  "idea": "The portfolio is one interaction: scrolling moves a sideways reel of big-type slides"
 }

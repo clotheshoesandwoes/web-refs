@@ -27,5 +27,7 @@
     "requests": 56,
     "reducedMotionCSS": false,
     "server": "nginx/1.11.3 · Express"
-  }
+  },
+  "name": "Grilli Type",
+  "idea": "A Swiss ruled index where every typeface name is set in its own face"
 }

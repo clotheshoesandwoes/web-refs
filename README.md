@@ -86,17 +86,17 @@ Foundries and publishers: the best typesetting on the web lives here.
 
 <table>
 <tr>
-<td width="33%" valign="top"><a href="sites/klim/teardown.md"><img src="sites/klim/card.jpg" width="100%" alt="klim"></a><br><b><a href="sites/klim/teardown.md">klim</a></b><br><sub></sub></td>
-<td width="33%" valign="top"><a href="sites/grilli-type/teardown.md"><img src="sites/grilli-type/card.jpg" width="100%" alt="grilli-type"></a><br><b><a href="sites/grilli-type/teardown.md">grilli-type</a></b><br><sub></sub></td>
-<td width="33%" valign="top"><a href="sites/dinamo/teardown.md"><img src="sites/dinamo/card.jpg" width="100%" alt="dinamo"></a><br><b><a href="sites/dinamo/teardown.md">dinamo</a></b><br><sub></sub></td>
+<td width="33%" valign="top"><a href="sites/klim/teardown.md"><img src="sites/klim/card.jpg" width="100%" alt="Klim Type Foundry"></a><br><b><a href="sites/klim/teardown.md">Klim Type Foundry</a></b><br><sub>The home page is a run of full-screen campaigns, one per typeface</sub></td>
+<td width="33%" valign="top"><a href="sites/grilli-type/teardown.md"><img src="sites/grilli-type/card.jpg" width="100%" alt="Grilli Type"></a><br><b><a href="sites/grilli-type/teardown.md">Grilli Type</a></b><br><sub>A Swiss ruled index where every typeface name is set in its own face</sub></td>
+<td width="33%" valign="top"><a href="sites/dinamo/teardown.md"><img src="sites/dinamo/card.jpg" width="100%" alt="Dinamo"></a><br><b><a href="sites/dinamo/teardown.md">Dinamo</a></b><br><sub>A type shop run like a fan club, with everything set big in the house grotesk</sub></td>
 </tr>
 <tr>
-<td width="33%" valign="top"><a href="sites/oh-no-type/teardown.md"><img src="sites/oh-no-type/card.jpg" width="100%" alt="oh-no-type"></a><br><b><a href="sites/oh-no-type/teardown.md">oh-no-type</a></b><br><sub></sub></td>
-<td width="33%" valign="top"><a href="sites/commercial-type/teardown.md"><img src="sites/commercial-type/card.jpg" width="100%" alt="commercial-type"></a><br><b><a href="sites/commercial-type/teardown.md">commercial-type</a></b><br><sub></sub></td>
-<td width="33%" valign="top"><a href="sites/stripe-press/teardown.md"><img src="sites/stripe-press/card.jpg" width="100%" alt="stripe-press"></a><br><b><a href="sites/stripe-press/teardown.md">stripe-press</a></b><br><sub></sub></td>
+<td width="33%" valign="top"><a href="sites/oh-no-type/teardown.md"><img src="sites/oh-no-type/card.jpg" width="100%" alt="OH no Type Company"></a><br><b><a href="sites/oh-no-type/teardown.md">OH no Type Company</a></b><br><sub>A shop window of black-and-white specimen art, each piece tagged with its font and price</sub></td>
+<td width="33%" valign="top"><a href="sites/commercial-type/teardown.md"><img src="sites/commercial-type/card.jpg" width="100%" alt="Commercial Type"></a><br><b><a href="sites/commercial-type/teardown.md">Commercial Type</a></b><br><sub>A stack of colour bands, each with one family's name set live in that family</sub></td>
+<td width="33%" valign="top"><a href="sites/stripe-press/teardown.md"><img src="sites/stripe-press/card.jpg" width="100%" alt="Stripe Press"></a><br><b><a href="sites/stripe-press/teardown.md">Stripe Press</a></b><br><sub>The catalogue is a stack of the actual books, spines out, rendered in 3D</sub></td>
 </tr>
 <tr>
-<td width="33%" valign="top"><a href="sites/the-pudding/teardown.md"><img src="sites/the-pudding/card.jpg" width="100%" alt="the-pudding"></a><br><b><a href="sites/the-pudding/teardown.md">the-pudding</a></b><br><sub></sub></td>
+<td width="33%" valign="top"><a href="sites/the-pudding/teardown.md"><img src="sites/the-pudding/card.jpg" width="100%" alt="The Pudding"></a><br><b><a href="sites/the-pudding/teardown.md">The Pudding</a></b><br><sub>A numbered back catalogue where every thumbnail is a real frame from the story</sub></td>
 </tr>
 </table>
 
@@ -106,14 +106,14 @@ Personal sites where the person is the subject.
 
 <table>
 <tr>
-<td width="33%" valign="top"><a href="sites/gwern/teardown.md"><img src="sites/gwern/card.jpg" width="100%" alt="gwern"></a><br><b><a href="sites/gwern/teardown.md">gwern</a></b><br><sub></sub></td>
-<td width="33%" valign="top"><a href="sites/robin-sloan/teardown.md"><img src="sites/robin-sloan/card.jpg" width="100%" alt="robin-sloan"></a><br><b><a href="sites/robin-sloan/teardown.md">robin-sloan</a></b><br><sub></sub></td>
-<td width="33%" valign="top"><a href="sites/craig-mod/teardown.md"><img src="sites/craig-mod/card.jpg" width="100%" alt="craig-mod"></a><br><b><a href="sites/craig-mod/teardown.md">craig-mod</a></b><br><sub></sub></td>
+<td width="33%" valign="top"><a href="sites/gwern/teardown.md"><img src="sites/gwern/card.jpg" width="100%" alt="Gwern.net"></a><br><b><a href="sites/gwern/teardown.md">Gwern.net</a></b><br><sub>An essay archive typeset like a scholarly book: justified serif, small caps, fleurons</sub></td>
+<td width="33%" valign="top"><a href="sites/robin-sloan/teardown.md"><img src="sites/robin-sloan/card.jpg" width="100%" alt="Robin Sloan"></a><br><b><a href="sites/robin-sloan/teardown.md">Robin Sloan</a></b><br><sub>A home page that aims for the printed page: one justified sheet and a directory</sub></td>
+<td width="33%" valign="top"><a href="sites/craig-mod/teardown.md"><img src="sites/craig-mod/card.jpg" width="100%" alt="Craig Mod"></a><br><b><a href="sites/craig-mod/teardown.md">Craig Mod</a></b><br><sub>Sell the printed books with photos of the real objects and words from real readers</sub></td>
 </tr>
 <tr>
-<td width="33%" valign="top"><a href="sites/rauno/teardown.md"><img src="sites/rauno/card.jpg" width="100%" alt="rauno"></a><br><b><a href="sites/rauno/teardown.md">rauno</a></b><br><sub></sub></td>
-<td width="33%" valign="top"><a href="sites/maggie-appleton/teardown.md"><img src="sites/maggie-appleton/card.jpg" width="100%" alt="maggie-appleton"></a><br><b><a href="sites/maggie-appleton/teardown.md">maggie-appleton</a></b><br><sub></sub></td>
-<td width="33%" valign="top"><a href="sites/ciechanowski-watch/teardown.md"><img src="sites/ciechanowski-watch/card.jpg" width="100%" alt="ciechanowski-watch"></a><br><b><a href="sites/ciechanowski-watch/teardown.md">ciechanowski-watch</a></b><br><sub></sub></td>
+<td width="33%" valign="top"><a href="sites/rauno/teardown.md"><img src="sites/rauno/card.jpg" width="100%" alt="Rauno Freiberg"></a><br><b><a href="sites/rauno/teardown.md">Rauno Freiberg</a></b><br><sub>The portfolio is one interaction: scrolling moves a sideways reel of big-type slides</sub></td>
+<td width="33%" valign="top"><a href="sites/maggie-appleton/teardown.md"><img src="sites/maggie-appleton/card.jpg" width="100%" alt="Maggie Appleton"></a><br><b><a href="sites/maggie-appleton/teardown.md">Maggie Appleton</a></b><br><sub>A digital garden: notes marked by growth stage, essays carried by her own drawings</sub></td>
+<td width="33%" valign="top"><a href="sites/ciechanowski-watch/teardown.md"><img src="sites/ciechanowski-watch/card.jpg" width="100%" alt="Mechanical Watch, Bartosz Ciechanowski"></a><br><b><a href="sites/ciechanowski-watch/teardown.md">Mechanical Watch, Bartosz Ciechanowski</a></b><br><sub>Explain a watch by building it: live 3D demos, with each part's name coloured to match</sub></td>
 </tr>
 </table>
 

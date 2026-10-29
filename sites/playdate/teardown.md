@@ -1,7 +1,7 @@
 # Playdate
 
 <!-- gallery:start -->
-<p><a href="../../README.md#products-radio-and-genre-pieces">All sites</a> &nbsp;&nbsp; <a href="../ciechanowski-watch/teardown.md">&larr; ciechanowski-watch</a> &nbsp;&nbsp; <a href="../teenage-engineering/teardown.md">teenage engineering &rarr;</a> &nbsp;&nbsp; <a href="https://play.date">Open the live site</a></p>
+<p><a href="../../README.md#products-radio-and-genre-pieces">All sites</a> &nbsp;&nbsp; <a href="../ciechanowski-watch/teardown.md">&larr; Mechanical Watch, Bartosz Ciechanowski</a> &nbsp;&nbsp; <a href="../teenage-engineering/teardown.md">teenage engineering &rarr;</a> &nbsp;&nbsp; <a href="https://play.date">Open the live site</a></p>
 <p><img src="motion.webp" width="100%" alt="Playdate, first seconds with the cursor moving"></p>
 <!-- gallery:end -->
 

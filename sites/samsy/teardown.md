@@ -1,7 +1,7 @@
 # Samsy
 
 <!-- gallery:start -->
-<p><a href="../../README.md#worlds">All sites</a> &nbsp;&nbsp; <a href="../14islands/teardown.md">&larr; 14islands</a> &nbsp;&nbsp; <a href="../klim/teardown.md">klim &rarr;</a> &nbsp;&nbsp; <a href="https://www.samsy.ninja">Open the live site</a></p>
+<p><a href="../../README.md#worlds">All sites</a> &nbsp;&nbsp; <a href="../14islands/teardown.md">&larr; 14islands</a> &nbsp;&nbsp; <a href="../klim/teardown.md">Klim Type Foundry &rarr;</a> &nbsp;&nbsp; <a href="https://www.samsy.ninja">Open the live site</a></p>
 <p><img src="motion.webp" width="100%" alt="Samsy, first seconds with the cursor moving"></p>
 <!-- gallery:end -->
 

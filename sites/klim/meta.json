@@ -23,5 +23,7 @@
     "requests": 41,
     "reducedMotionCSS": false,
     "server": "AmazonS3"
-  }
+  },
+  "name": "Klim Type Foundry",
+  "idea": "The home page is a run of full-screen campaigns, one per typeface"
 }

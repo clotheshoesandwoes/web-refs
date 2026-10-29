@@ -26,5 +26,7 @@
     "requests": 189,
     "reducedMotionCSS": false,
     "server": "nginx"
-  }
+  },
+  "name": "Stripe Press",
+  "idea": "The catalogue is a stack of the actual books, spines out, rendered in 3D"
 }

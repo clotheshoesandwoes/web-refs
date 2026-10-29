@@ -23,5 +23,7 @@
     "requests": 7,
     "reducedMotionCSS": false,
     "server": "cloudflare · Cloudflare"
-  }
+  },
+  "name": "Robin Sloan",
+  "idea": "A home page that aims for the printed page: one justified sheet and a directory"
 }

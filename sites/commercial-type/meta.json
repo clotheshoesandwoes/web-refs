@@ -27,5 +27,7 @@
     "requests": 140,
     "reducedMotionCSS": false,
     "server": "nginx/1.26.3 + Phusion Passenger(R) 6.0.27"
-  }
+  },
+  "name": "Commercial Type",
+  "idea": "A stack of colour bands, each with one family's name set live in that family"
 }

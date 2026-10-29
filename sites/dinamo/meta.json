@@ -27,5 +27,7 @@
     "requests": 190,
     "reducedMotionCSS": false,
     "server": "nginx"
-  }
+  },
+  "name": "Dinamo",
+  "idea": "A type shop run like a fan club, with everything set big in the house grotesk"
 }

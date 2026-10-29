@@ -115,5 +115,7 @@
     "requests": 14,
     "reducedMotionCSS": false,
     "server": "nginx/1.18.0 (Ubuntu)"
-  }
+  },
+  "name": "Mechanical Watch, Bartosz Ciechanowski",
+  "idea": "Explain a watch by building it: live 3D demos, with each part's name coloured to match"
 }

@@ -24,5 +24,7 @@
     "requests": 79,
     "reducedMotionCSS": true,
     "server": "AmazonS3"
-  }
+  },
+  "name": "The Pudding",
+  "idea": "A numbered back catalogue where every thumbnail is a real frame from the story"
 }
