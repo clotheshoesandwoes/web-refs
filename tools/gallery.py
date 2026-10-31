@@ -1,7 +1,7 @@
 """Build the gallery from sites/: cards, thumbnails, motion previews, the wall image,
 the README grid, wall.md, prev/next links on every teardown, and gallery.data.js for gallery.html.
 
-usage: python tools/gallery.py
+usage: python tools/gallery.py   (needs Pillow: pip install -r requirements.txt)
 """
 import glob
 import json
@@ -123,7 +123,7 @@ def readme_block(sites):
     out.append('- [Every screen on one page](wall.md)')
     out.append('- [Our own Hydra](hydra.md) and the kit, [stage](https://github.com/clotheshoesandwoes/stage)')
     out.append('- [Brief template](briefs/template.md)')
-    out.append('- Offline: open `gallery.html` from this folder (arrow keys flip through everything)')
+    out.append('- Offline: open `gallery.html` from this folder (arrow keys flip through everything, `/` filters by name, font or library, and `gallery.html#<slug>` opens one site)')
     out.append('')
     for g, title in GROUPS.items():
         group = [s for s in sites if s['group'] == g and s.get('shots')]

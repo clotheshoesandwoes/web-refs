@@ -16,9 +16,9 @@ The banned list in `~/.claude/CLAUDE.md` ("No AI UI slop") applies to everything
 **Adding a site:**
 
 1. Add a line to `tools/sites.tsv` (group, slug, url, shoot options).
-2. Run `npm install` once, then `./tools/shoot-all.sh <slug>`. Headless Chrome captures the hero, scroll stills, a phone shot, motion frames and a stack fingerprint into `sites/<slug>/`. Cookie banners are hidden, never accepted.
+2. Run `npm install` once, then `./tools/shoot-all.sh <slug>`. Headless Chrome captures the hero, scroll stills, a phone shot, motion frames and a stack fingerprint into `sites/<slug>/`. Cookie banners are hidden, never accepted. It finds Chrome, Chromium or Edge in the usual places; if yours is elsewhere, set `CHROME_PATH` to the executable.
 3. Write `sites/<slug>/teardown.md`: the idea, what you see, the stack, steal, don't steal. Copy the shape of any existing one, and add `name` and `idea` to its `meta.json`.
-4. Run `python tools/gallery.py`. It rebuilds the cards, motion previews, the wall, this README's grid, `wall.md`, the prev/next links and the offline viewer's data.
+4. Run `pip install -r requirements.txt` once (it's just Pillow), then `python tools/gallery.py` (`python3` on some systems). It rebuilds the cards, motion previews, the wall, this README's grid, `wall.md`, the prev/next links and the offline viewer's data.
 
 Links and GitHub stats were checked on 2026-10-28.
 
@@ -37,7 +37,7 @@ Jump to:
 - [Every screen on one page](wall.md)
 - [Our own Hydra](hydra.md) and the kit, [stage](https://github.com/clotheshoesandwoes/stage)
 - [Brief template](briefs/template.md)
-- Offline: open `gallery.html` from this folder (arrow keys flip through everything)
+- Offline: open `gallery.html` from this folder (arrow keys flip through everything, `/` filters by name, font or library, and `gallery.html#<slug>` opens one site)
 
 ## House standard
 

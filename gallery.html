@@ -29,6 +29,12 @@
   nav button:hover { color: var(--ink); }
   nav button[aria-current="true"] { color: var(--ink); box-shadow: inset 2px 0 0 var(--mark); }
   nav button:focus-visible { outline: 1px solid var(--soft); outline-offset: -1px; }
+  nav input { all: unset; box-sizing: border-box; display: block; width: calc(100% - 44px); margin: 0 22px 4px; padding: 6px 0; border-bottom: 1px solid var(--rule); color: var(--ink); font: 400 14px/1.4 var(--sans); }
+  nav input::placeholder { color: var(--faint); }
+  nav input:focus { border-color: var(--soft); }
+  nav input::-webkit-search-cancel-button { filter: grayscale(1); opacity: 0.6; cursor: pointer; }
+  nav .none { color: var(--faint); padding: 14px 22px; font-size: 13px; }
+  nav [hidden] { display: none; }
 
   main { display: grid; grid-template-rows: auto 1fr auto; min-height: 0; }
   header { display: flex; align-items: baseline; gap: 18px; padding: 20px 28px 14px; border-bottom: 1px solid var(--rule); }
@@ -38,7 +44,7 @@
   header .links a { color: var(--soft); text-decoration: none; border-bottom: 1px solid var(--rule); }
   header .links a:hover { color: var(--ink); border-color: var(--mark); }
 
-  .stage { position: relative; min-height: 0; display: grid; place-items: center; padding: 18px 28px; }
+  .stage { position: relative; min-height: 0; display: grid; grid-template: minmax(0, 1fr) / minmax(0, 1fr); place-items: center; padding: 18px 28px; }
   .stage img { max-width: 100%; max-height: 100%; object-fit: contain; display: block; border: 1px solid var(--rule); background: #000; cursor: zoom-in; }
   .stage img.phone { height: 100%; }
   .stage .count { position: absolute; right: 30px; bottom: 6px; color: var(--faint); font-size: 12px; font-variant-numeric: tabular-nums; }
@@ -65,7 +71,7 @@
 </style>
 </head>
 <body>
-<nav id="nav" aria-label="Sites"><h1>web-refs</h1></nav>
+<nav id="nav" aria-label="Sites"><h1>web-refs</h1><input id="q" type="search" placeholder="Filter: name, font, library" aria-label="Filter sites by name, idea, font or library" autocomplete="off" spellcheck="false"><p class="none" id="none" hidden>No sites match.</p></nav>
 <main>
   <header>
     <h2 id="name"></h2>
@@ -76,7 +82,7 @@
   <footer>
     <div class="strip" id="strip"></div>
     <div class="meta" id="meta"></div>
-    <div class="keys">Left and right: screens. Up and down: sites. M: motion. Enter: full size. T: teardown.</div>
+    <div class="keys">Left and right: screens. Up and down: sites. M: motion. Enter: full size. T: teardown. /: filter. The address bar links to the screen you're on.</div>
   </footer>
 </main>
 <div class="zoom" id="zoom"><img id="zoomImg" alt=""></div>
@@ -89,20 +95,52 @@
   var si = 0, hi = 0, items = [];
 
   // Rail, grouped.
-  var nav = $('nav'), group = null;
+  var nav = $('nav'), group = null, heads = [];
   sites.forEach(function (s, i) {
     if (s.group !== group) {
       group = s.group;
       var h = document.createElement('h2');
       h.textContent = s.groupTitle;
       nav.appendChild(h);
+      heads.push({ el: h, sites: [] });
     }
     var b = document.createElement('button');
     b.textContent = s.name;
     b.onclick = function () { show(i, 0); };
     s.button = b;
+    heads[heads.length - 1].sites.push(s);
     nav.appendChild(b);
+    var st = s.stack || {};
+    s.haystack = [s.name, s.slug, s.idea, s.groupTitle].concat(st.libs || [], st.fonts || []).join(' ').toLowerCase();
   });
+
+  // Filter: every word has to appear in the site's name, idea, group, libraries or fonts.
+  function matches(s) { return !s.button.hidden; }
+  $('q').oninput = function () {
+    var words = this.value.toLowerCase().split(/\s+/).filter(Boolean);
+    sites.forEach(function (s) { s.button.hidden = !words.every(function (w) { return s.haystack.indexOf(w) >= 0; }); });
+    heads.forEach(function (h) { h.el.hidden = !h.sites.some(matches); });
+    $('none').hidden = sites.some(matches);
+  };
+
+  // Next or previous site among the ones the filter shows.
+  function step(d) {
+    var shown = sites.filter(matches);
+    if (!shown.length) return;
+    var k = shown.indexOf(sites[si]);
+    show(sites.indexOf(shown[k < 0 ? 0 : (k + d + shown.length) % shown.length]), 0);
+  }
+
+  // #slug or #slug/n, n counting from 1 like the counter under the screen.
+  function fromHash() {
+    var m = decodeURIComponent(location.hash.slice(1)).split('/');
+    for (var i = 0; i < sites.length; i++) if (sites[i].slug === m[0]) return [i, (parseInt(m[1], 10) || 1) - 1];
+    return null;
+  }
+  function remember() {
+    try { localStorage.setItem('web-refs', si + ',' + hi); } catch (e) {}
+    try { history.replaceState(null, '', '#' + sites[si].slug + (hi ? '/' + (hi + 1) : '')); } catch (e) {}
+  }
 
   function show(i, j) {
     si = (i + sites.length) % sites.length;
@@ -134,7 +172,6 @@
       strip.appendChild(b);
     });
     pick(hi);
-    try { localStorage.setItem('web-refs', si + ',' + hi); } catch (e) {}
   }
 
   function pick(k) {
@@ -146,18 +183,28 @@
     img.className = f === 'phone.jpg' ? 'phone' : '';
     $('count').textContent = (hi + 1) + ' / ' + items.length;
     [].forEach.call($('strip').children, function (b, n) { b.setAttribute('aria-current', n === hi); if (n === hi) b.scrollIntoView({ block: 'nearest', inline: 'nearest' }); });
-    try { localStorage.setItem('web-refs', si + ',' + hi); } catch (e) {}
+    remember();
   }
 
   $('shot').onclick = function () { $('zoomImg').src = this.src; $('zoom').classList.add('open'); };
   $('zoom').onclick = function () { this.classList.remove('open'); };
 
   addEventListener('keydown', function (e) {
+    if (e.target === $('q')) {
+      // Typing in the filter: Enter opens the first match, Escape clears and leaves.
+      if (e.key === 'Enter') { var first = sites.filter(matches)[0]; if (first) show(sites.indexOf(first), 0); $('q').blur(); }
+      else if (e.key === 'Escape') { $('q').value = ''; $('q').oninput(); $('q').blur(); }
+      else if (e.key === 'ArrowDown' || e.key === 'ArrowUp') step(e.key === 'ArrowDown' ? 1 : -1);
+      else return;
+      return e.preventDefault();
+    }
+    if (e.ctrlKey || e.metaKey || e.altKey) return;
     if (e.key === 'Escape') return $('zoom').classList.remove('open');
-    if (e.key === 'ArrowRight') pick(hi + 1);
+    if (e.key === '/') $('q').focus();
+    else if (e.key === 'ArrowRight') pick(hi + 1);
     else if (e.key === 'ArrowLeft') pick(hi - 1);
-    else if (e.key === 'ArrowDown') show(si + 1, 0);
-    else if (e.key === 'ArrowUp') show(si - 1, 0);
+    else if (e.key === 'ArrowDown') step(1);
+    else if (e.key === 'ArrowUp') step(-1);
     else if (e.key === 'm' || e.key === 'M') { var m = items.indexOf('motion.webp'); if (m >= 0) pick(m); }
     else if (e.key === 'Enter') $('shot').click();
     else if (e.key === 't' || e.key === 'T') location.href = $('teardown').href;
@@ -165,8 +212,11 @@
     e.preventDefault();
   });
 
+  // A pasted link opens that site; otherwise pick up where you left off.
+  addEventListener('hashchange', function () { var h = fromHash(); if (h) show(h[0], h[1]); });
   var saved = [0, 0];
   try { saved = (localStorage.getItem('web-refs') || '0,0').split(',').map(Number); } catch (e) {}
+  saved = fromHash() || saved;
   if (sites.length) show(saved[0] || 0, saved[1] || 0);
 })();
 </script>
