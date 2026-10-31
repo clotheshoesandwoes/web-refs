@@ -23,16 +23,35 @@ fs.mkdirSync(dir, { recursive: true });
 fs.rmSync(framesDir, { recursive: true, force: true });
 fs.mkdirSync(framesDir, { recursive: true });
 
-const CHROME = [
+// CHROME_PATH wins; otherwise the usual Chrome, Chromium and Edge installs on Windows, macOS and Linux.
+const CHROME = process.env.CHROME_PATH ? [process.env.CHROME_PATH].find(p => fs.existsSync(p)) : [
   'C:/Program Files/Google/Chrome/Application/chrome.exe',
+  'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe',
+  process.env.LOCALAPPDATA && path.join(process.env.LOCALAPPDATA, 'Google/Chrome/Application/chrome.exe'),
+  'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',
   '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
+  '/Applications/Chromium.app/Contents/MacOS/Chromium',
+  '/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge',
   '/usr/bin/google-chrome',
-].find(p => fs.existsSync(p));
+  '/usr/bin/google-chrome-stable',
+  '/usr/bin/chromium',
+  '/usr/bin/chromium-browser',
+  '/snap/bin/chromium',
+  '/usr/bin/microsoft-edge',
+].find(p => p && fs.existsSync(p));
+if (!CHROME) {
+  console.error(process.env.CHROME_PATH
+    ? `CHROME_PATH is set to ${process.env.CHROME_PATH}, but there is no file there.`
+    : 'No Chrome, Chromium or Edge found. Install one, or point CHROME_PATH at its executable.');
+  process.exit(1);
+}
 
 const browser = await chromium.launch({
   executablePath: CHROME,
   headless: true,
-  args: ['--ignore-gpu-blocklist', '--enable-gpu', '--use-angle=d3d11', '--enable-unsafe-swiftshader', '--autoplay-policy=no-user-gesture-required', '--hide-scrollbars'],
+  // d3d11 is the Windows GL backend; elsewhere Chrome picks its own.
+  args: ['--ignore-gpu-blocklist', '--enable-gpu', ...(process.platform === 'win32' ? ['--use-angle=d3d11'] : []),
+    '--enable-unsafe-swiftshader', '--autoplay-policy=no-user-gesture-required', '--hide-scrollbars'],
 });
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
