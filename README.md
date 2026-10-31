@@ -165,6 +165,31 @@ Active Theory's in-house engine and editor, broken into parts, with the open-sou
 
 The slop comes from vague briefs. When the brief has no idea in it, the chat fills the gap with the library defaults: Tailwind grays, Inter or Geist, a centered hero, cards, fade-ups. Every site in `sites/` avoids this the same way: **one idea taken from the subject drives every decision.** The fix is the [brief template](briefs/template.md).
 
+## The slop check
+
+[`guard/slopcheck.mjs`](guard/slopcheck.mjs) catches the stock moves in HTML, CSS and component files: tiny uppercase letter-spaced labels, mono used for labels, middot and em dash chains, glass, glows, pulsing loops, fade-up reveals, pills and badges, "click to" instructions, and three or more typefaces. The house page passes it clean.
+
+Audit a page or a folder:
+
+```
+node guard/slopcheck.mjs path/to/site
+```
+
+Make Claude Code run it on every file it writes, so it has to fix the hits before going on. Add this to `~/.claude/settings.json`, with the path to your clone:
+
+```json
+"hooks": {
+  "PostToolUse": [
+    { "matcher": "Write|Edit|MultiEdit",
+      "hooks": [{ "type": "command", "command": "node /path/to/web-refs/guard/slopcheck.mjs --hook", "timeout": 15 }] }
+  ]
+}
+```
+
+It checks only what was just written, never old code. A line holding `slop-ok: <reason>` is skipped, for the rare move that really comes from the subject.
+
+[`examples/charizard`](examples/charizard/index.html) is a graded-card page with the slop taken out: the case and a museum-style label beside it, one family (Libre Franklin), one motion (turning the case over). Drop `front.jpg` and `back.jpg` next to it for the real photos.
+
 ---
 
 ## The list (30)
