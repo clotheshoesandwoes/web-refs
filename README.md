@@ -190,6 +190,10 @@ It checks only what was just written, never old code. A line holding `slop-ok: <
 
 [`examples/charizard`](examples/charizard/index.html) is a graded-card page with the slop taken out: the case and a museum-style label beside it, one family (Libre Franklin), one motion (turning the case over). Drop `front.jpg` and `back.jpg` next to it for the real photos.
 
+## Product shots: Stageshow
+
+For a fake app screen on a landing page (a hero demo, a feature card, a bento grid, a cursor doing one thing), point the chat at Benji Taylor's [Stageshow](https://github.com/benjitaylor/skills/tree/main/stageshow) skill instead of letting it draw the UI by hand. The rules worth keeping, short, and where it parts from ours: **[stageshow.md](stageshow.md)**.
+
 ---
 
 ## The list (30)
