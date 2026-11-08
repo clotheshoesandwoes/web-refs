@@ -22,6 +22,8 @@ The banned list in `~/.claude/CLAUDE.md` ("No AI UI slop") applies to everything
 
 Links and GitHub stats were checked on 2026-10-28.
 
+Motion: [`motion.md`](motion.md) lists the free UI motion tools (Motion, View Transitions, Vaul, Sonner) and the one-moment rule.
+
 <!-- gallery:start -->
 
 **36 sites, 201 screenshots.** Click any card for the teardown: every screenshot, a motion preview, the stack, what to steal and what not to.
