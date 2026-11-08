@@ -9,6 +9,8 @@ Looked at on 2026-10-28. https://bruno-simon.com
 
 **The idea:** the portfolio is a toy world you drive a car through.
 
+**Deep audit (Nov 8):** [`audit.md`](audit.md) covers the visuals, physics, the vehicle and its hydraulics, the camera and gameplay, with GIFs. A ready prompt for building your own is in [`colin-prompt.md`](colin-prompt.md).
+
 ![start screen: red off-road car on a lit disc with a tree, bench and lamp post, "Click to start"](01-hero.jpg)
 ![phone: the same start screen, scene filling the width](phone.jpg)
 
