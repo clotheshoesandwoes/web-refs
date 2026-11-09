@@ -6,6 +6,27 @@ Played on 2026-11-08 and read alongside the source (github.com/brunosimon/folio-
 
 *Click to start. The glowing disc grows out from the car and the world appears inside its ring.*
 
+## The intro: loading to driving in one shot
+
+<p><img src="audit/intro.webp" width="100%" alt="Click to start: the disc pinches to the car, then bursts outward revealing the world, and the car drives off"></p>
+<p><img src="audit/intro-slow.webp" width="100%" alt="The same, at one third speed"></p>
+
+*Real speed, then one-third speed (clip from Sean, Nov 8).*
+
+There is never a loading screen and then a game. It's one scene the whole time; only a circle changes size. From `Reveal.js` and `World/Intro.js`:
+
+| Beat | What happens | Timing and ease |
+|---|---|---|
+| 0. Loading | A glowing ring draws itself around the spawn point as assets load. That ring is the progress bar. | Follows real load progress |
+| 1. Loaded | The ring shrinks to nothing, then the world appears inside a small disc around the car: radius 0 to 3.5 m. The camera starts wide (zoom 0.6) and eases in (0.3). After 1 s the hand-lettered "Click to start" appears. | Ring: 1.5 s `power4.in`. Disc: 2 s `back.out(1.7)` (overshoots, settles). Camera: 1.25 s `power1.inOut` |
+| Idle | Hovering the disc brightens its rim 22% | 0.2 s |
+| 2. Click (or W, Enter, gamepad) | Audio unlocks and a reveal sound plays. The label hides. Driving input turns on **immediately**, so you can drive during the reveal. The disc races from 3.5 m to 30 m and then to infinity. The camera pulls back into its play position. Tree leaves fade from see-through to solid. | Disc: 2 s `back.in(1.3)` (dips first, then rushes out). Camera: 1.75 s `back.in(1.5)`. Leaves: 2 s `power1.inOut` |
+| 3. Done | The intro grid and ring are destroyed and the map points and overlay come on. | When the camera tween ends |
+
+**How the reveal is drawn:** one shared material does it all. Every surface computes its distance from the spawn point on the ground (XZ). Pixels farther than `revealDistance` are discarded. Pixels in a thin band just inside it (`thickness` 0.05) are painted a hot color (`#e88eff` x 5.5), which the bloom pass turns into the glowing rim. Outside is a dark floor grid of little crosses. One uniform animated by GSAP drives the whole effect, and adding `#skip` to the URL runs it 4x faster for testing.
+
+**Why it feels clean:** every beat overlaps the next (nothing waits for a fade to finish). The `back` eases give each move an anticipation and an overshoot. The world, camera and rim all come from the same center point. And control is handed over at the click, not after the show.
+
 ## The one idea
 
 The portfolio is a toy box you drive through. Every object is a prop you can hit, and every project is a place you drive to. Nothing is a page.
