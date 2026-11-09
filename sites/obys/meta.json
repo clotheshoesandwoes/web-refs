@@ -1,0 +1,29 @@
+{
+  "slug": "obys",
+  "url": "https://obys.agency",
+  "finalUrl": "https://obys.agency/",
+  "title": "Obys Agency",
+  "captured": "2026-11-09",
+  "stack": {
+    "libs": [],
+    "fonts": [
+      "Obys",
+      "ObysSans4"
+    ],
+    "canvases": [
+      "1440x900"
+    ],
+    "weightKB": {
+      "total": 88,
+      "js": 37,
+      "img": 0,
+      "font": 6,
+      "video": 0
+    },
+    "requests": 27,
+    "reducedMotionCSS": false,
+    "server": "nginx/1.24.0 (Ubuntu)"
+  },
+  "name": "Obys",
+  "idea": "A studio index where a strip of thumbnails scrolls through a bracket that picks the project"
+}

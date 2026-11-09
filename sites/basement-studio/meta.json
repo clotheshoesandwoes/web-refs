@@ -1,0 +1,34 @@
+{
+  "slug": "basement-studio",
+  "url": "https://basement.studio",
+  "finalUrl": "https://basement.studio/",
+  "title": "basement.studio | We make cool shit that performs.",
+  "captured": "2026-11-09",
+  "stack": {
+    "libs": [
+      "three.js r180",
+      "Next.js"
+    ],
+    "fonts": [
+      "Geist",
+      "Geist Mono",
+      "flauta"
+    ],
+    "canvases": [
+      "1440x900",
+      "1440x900"
+    ],
+    "weightKB": {
+      "total": 21236,
+      "js": 2446,
+      "img": 3167,
+      "font": 65,
+      "video": 444
+    },
+    "requests": 176,
+    "reducedMotionCSS": true,
+    "server": "Vercel · Next.js · Vercel"
+  },
+  "name": "basement.studio",
+  "idea": "A studio site that opens inside a 3D model of the studio itself"
+}

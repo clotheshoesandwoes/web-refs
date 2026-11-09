@@ -18,8 +18,10 @@ GROUPS = {
     'writing': 'Writing and personal sites',
     'objects': 'Products, radio and genre pieces',
     'tables': 'Restaurants',
+    'motion': 'Studios and motion craft',
 }
 GROUP_NOTES = {
+    'motion': 'Studios and interaction craft. Watch what moves, when, and why it earns the motion.',
     'house': 'The page that passed review. Everything else is measured against it.',
     'worlds': 'Real-time 3D. Look at what each one spends its WebGL on.',
     'type': 'Foundries and publishers: the best typesetting on the web lives here.',

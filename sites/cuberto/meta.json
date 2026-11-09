@@ -1,0 +1,29 @@
+{
+  "slug": "cuberto",
+  "url": "https://cuberto.com",
+  "finalUrl": "https://cuberto.com/",
+  "title": "Cuberto | Digital Design & Development Agency",
+  "captured": "2026-11-09",
+  "stack": {
+    "libs": [
+      "Lenis",
+      "Astro"
+    ],
+    "fonts": [
+      "Suisse Intl"
+    ],
+    "canvases": [],
+    "weightKB": {
+      "total": 6041,
+      "js": 88,
+      "img": 26,
+      "font": 35,
+      "video": 5863
+    },
+    "requests": 44,
+    "reducedMotionCSS": true,
+    "server": "Vercel · Vercel"
+  },
+  "name": "Cuberto",
+  "idea": "A product agency site where the polish is in the cursor and the scroll"
+}

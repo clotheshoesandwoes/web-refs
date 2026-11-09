@@ -1,0 +1,29 @@
+{
+  "slug": "lynn-fisher",
+  "url": "https://lynnandtonic.com",
+  "finalUrl": "https://lynnandtonic.com/",
+  "title": "Lynn Fisher",
+  "captured": "2026-11-09",
+  "stack": {
+    "libs": [],
+    "fonts": [
+      "Hubano-Rough",
+      "SydoniaAtramentiquaRegular",
+      "SydoniaAtramentiquaLight",
+      "SydoniaAtramentiquaBold"
+    ],
+    "canvases": [],
+    "weightKB": {
+      "total": 411,
+      "js": 1,
+      "img": 249,
+      "font": 155,
+      "video": 0
+    },
+    "requests": 10,
+    "reducedMotionCSS": false,
+    "server": "Netlify · Netlify"
+  },
+  "name": "Lynn Fisher",
+  "idea": "A personal site redesigned from scratch every year; this year it's a book's table of contents"
+}

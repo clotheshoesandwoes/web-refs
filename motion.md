@@ -12,3 +12,7 @@ Free tools for UI motion. The house rule still holds: motion only where it comes
 Pick the smallest one that does the job; View Transitions first when no React is involved.
 
 Source: Sean's Grid chat, Nov 8, 2026.
+
+## Sites that do motion well
+
+See [Studios and motion craft](README.md#studios-and-motion-craft): basement.studio, Motion, Emil Kowalski, Josh Comeau, Lynn Fisher, Cuberto, Lando Norris, Obys. Each teardown says what moves and why it earns it. For a drive-around 3D world, see the [Bruno Simon deep audit](sites/bruno-simon/audit.md).

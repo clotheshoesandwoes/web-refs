@@ -1186,5 +1186,295 @@ window.SITES = [
     "video": 0
    }
   }
+ },
+ {
+  "slug": "slow-roads",
+  "name": "Slow Roads",
+  "idea": "An endless, procedurally generated drive in the browser: zen instead of a goal",
+  "url": "https://slowroads.io",
+  "group": "worlds",
+  "shots": [
+   "01-hero.jpg",
+   "phone.jpg"
+  ],
+  "motion": false,
+  "groupTitle": "Worlds",
+  "stack": {
+   "libs": [],
+   "fonts": [],
+   "weightKB": {
+    "total": 443,
+    "js": 223,
+    "img": 0,
+    "font": 0,
+    "video": 0
+   }
+  }
+ },
+ {
+  "slug": "basement-studio",
+  "name": "basement.studio",
+  "idea": "A studio site that opens inside a 3D model of the studio itself",
+  "url": "https://basement.studio",
+  "group": "motion",
+  "shots": [
+   "01-hero.jpg",
+   "02-scroll.jpg",
+   "03-scroll.jpg",
+   "04-scroll.jpg",
+   "05-scroll.jpg",
+   "06-scroll.jpg",
+   "phone.jpg"
+  ],
+  "motion": true,
+  "groupTitle": "Studios and motion craft",
+  "stack": {
+   "libs": [
+    "three.js r180",
+    "Next.js"
+   ],
+   "fonts": [
+    "Geist",
+    "Geist Mono",
+    "flauta"
+   ],
+   "weightKB": {
+    "total": 21236,
+    "js": 2446,
+    "img": 3167,
+    "font": 65,
+    "video": 444
+   }
+  }
+ },
+ {
+  "slug": "motion-dev",
+  "name": "Motion",
+  "idea": "The animation library's site demonstrates each feature live, next to its code",
+  "url": "https://motion.dev",
+  "group": "motion",
+  "shots": [
+   "01-hero.jpg",
+   "02-scroll.jpg",
+   "03-scroll.jpg",
+   "04-scroll.jpg",
+   "05-scroll.jpg",
+   "06-scroll.jpg",
+   "phone.jpg"
+  ],
+  "motion": true,
+  "groupTitle": "Studios and motion craft",
+  "stack": {
+   "libs": [],
+   "fonts": [
+    "Geist Mono",
+    "TASA Orbiter"
+   ],
+   "weightKB": {
+    "total": 615,
+    "js": 425,
+    "img": 1,
+    "font": 31,
+    "video": 0
+   }
+  }
+ },
+ {
+  "slug": "emil-kowalski",
+  "name": "Emil Kowalski",
+  "idea": "The design engineer behind Sonner and Vaul keeps his own site to plain text; the motion lives in the writing",
+  "url": "https://emilkowal.ski",
+  "group": "motion",
+  "shots": [
+   "01-hero.jpg",
+   "02-scroll.jpg",
+   "03-scroll.jpg",
+   "04-scroll.jpg",
+   "phone.jpg"
+  ],
+  "motion": true,
+  "groupTitle": "Studios and motion craft",
+  "stack": {
+   "libs": [
+    "Next.js"
+   ],
+   "fonts": [
+    "Sans"
+   ],
+   "weightKB": {
+    "total": 2099,
+    "js": 919,
+    "img": 0,
+    "font": 1059,
+    "video": 0
+   }
+  }
+ },
+ {
+  "slug": "josh-comeau",
+  "name": "Josh W. Comeau",
+  "idea": "A CSS teacher's blog that is itself a toy: whimsy in every small interaction",
+  "url": "https://www.joshwcomeau.com",
+  "group": "motion",
+  "shots": [
+   "01-hero.jpg",
+   "02-scroll.jpg",
+   "03-scroll.jpg",
+   "04-scroll.jpg",
+   "05-scroll.jpg",
+   "phone.jpg"
+  ],
+  "motion": true,
+  "groupTitle": "Studios and motion craft",
+  "stack": {
+   "libs": [
+    "Next.js"
+   ],
+   "fonts": [
+    "Wotfard",
+    "Cartograph CF"
+   ],
+   "weightKB": {
+    "total": 1003,
+    "js": 295,
+    "img": 100,
+    "font": 93,
+    "video": 0
+   }
+  }
+ },
+ {
+  "slug": "lynn-fisher",
+  "name": "Lynn Fisher",
+  "idea": "A personal site redesigned from scratch every year; this year it's a book's table of contents",
+  "url": "https://lynnandtonic.com",
+  "group": "motion",
+  "shots": [
+   "01-hero.jpg",
+   "02-scroll.jpg",
+   "03-scroll.jpg",
+   "04-scroll.jpg",
+   "phone.jpg"
+  ],
+  "motion": true,
+  "groupTitle": "Studios and motion craft",
+  "stack": {
+   "libs": [],
+   "fonts": [
+    "Hubano-Rough",
+    "SydoniaAtramentiquaRegular",
+    "SydoniaAtramentiquaLight",
+    "SydoniaAtramentiquaBold"
+   ],
+   "weightKB": {
+    "total": 411,
+    "js": 1,
+    "img": 249,
+    "font": 155,
+    "video": 0
+   }
+  }
+ },
+ {
+  "slug": "cuberto",
+  "name": "Cuberto",
+  "idea": "A product agency site where the polish is in the cursor and the scroll",
+  "url": "https://cuberto.com",
+  "group": "motion",
+  "shots": [
+   "01-hero.jpg",
+   "02-scroll.jpg",
+   "03-scroll.jpg",
+   "04-scroll.jpg",
+   "05-scroll.jpg",
+   "06-scroll.jpg",
+   "phone.jpg"
+  ],
+  "motion": true,
+  "groupTitle": "Studios and motion craft",
+  "stack": {
+   "libs": [
+    "Lenis",
+    "Astro"
+   ],
+   "fonts": [
+    "Suisse Intl"
+   ],
+   "weightKB": {
+    "total": 6041,
+    "js": 88,
+    "img": 26,
+    "font": 35,
+    "video": 5863
+   }
+  }
+ },
+ {
+  "slug": "lando-norris",
+  "name": "Lando Norris",
+  "idea": "An F1 driver's site built like a fashion editorial: his signature, his helmet, his photos",
+  "url": "https://landonorris.com",
+  "group": "motion",
+  "shots": [
+   "01-hero.jpg",
+   "02-scroll.jpg",
+   "03-scroll.jpg",
+   "04-scroll.jpg",
+   "05-scroll.jpg",
+   "06-scroll.jpg",
+   "phone.jpg"
+  ],
+  "motion": true,
+  "groupTitle": "Studios and motion craft",
+  "stack": {
+   "libs": [
+    "three.js r174",
+    "Lenis",
+    "Webflow"
+   ],
+   "fonts": [
+    "Brier",
+    "Mona Sans Variable"
+   ],
+   "weightKB": {
+    "total": 213,
+    "js": 170,
+    "img": 0,
+    "font": 0,
+    "video": 0
+   }
+  }
+ },
+ {
+  "slug": "obys",
+  "name": "Obys",
+  "idea": "A studio index where a strip of thumbnails scrolls through a bracket that picks the project",
+  "url": "https://obys.agency",
+  "group": "motion",
+  "shots": [
+   "01-hero.jpg",
+   "02-scroll.jpg",
+   "03-scroll.jpg",
+   "04-scroll.jpg",
+   "05-scroll.jpg",
+   "06-scroll.jpg",
+   "phone.jpg"
+  ],
+  "motion": true,
+  "groupTitle": "Studios and motion craft",
+  "stack": {
+   "libs": [],
+   "fonts": [
+    "Obys",
+    "ObysSans4"
+   ],
+   "weightKB": {
+    "total": 88,
+    "js": 37,
+    "img": 0,
+    "font": 6,
+    "video": 0
+   }
+  }
  }
 ];

@@ -1,7 +1,7 @@
 # noma
 
 <!-- gallery:start -->
-<p><a href="../../README.md#restaurants">All sites</a> &nbsp;&nbsp; <a href="../dishoom/teardown.md">&larr; Dishoom</a> &nbsp;&nbsp; <a href="../izakaya-sakura/teardown.md">Izakaya Sakura &rarr;</a> &nbsp;&nbsp; <a href="https://noma.dk">Open the live site</a></p>
+<p><a href="../../README.md#restaurants">All sites</a> &nbsp;&nbsp; <a href="../dishoom/teardown.md">&larr; Dishoom</a> &nbsp;&nbsp; <a href="../slow-roads/teardown.md">Slow Roads &rarr;</a> &nbsp;&nbsp; <a href="https://noma.dk">Open the live site</a></p>
 <p><img src="motion.webp" width="100%" alt="noma, first seconds with the cursor moving"></p>
 <!-- gallery:end -->
 

@@ -28,16 +28,17 @@ Motion: [`motion.md`](motion.md) lists the free UI motion tools (Motion, View Tr
 
 <!-- gallery:start -->
 
-**36 sites, 201 screenshots.** Click any card for the teardown: every screenshot, a motion preview, the stack, what to steal and what not to.
+**45 sites, 254 screenshots.** Click any card for the teardown: every screenshot, a motion preview, the stack, what to steal and what not to.
 
 Jump to:
 
 - [House standard](#house-standard) (1)
-- [Worlds](#worlds) (14)
+- [Worlds](#worlds) (15)
 - [Type foundries and editorial](#type-foundries-and-editorial) (7)
 - [Writing and personal sites](#writing-and-personal-sites) (6)
 - [Products, radio and genre pieces](#products-radio-and-genre-pieces) (6)
 - [Restaurants](#restaurants) (2)
+- [Studios and motion craft](#studios-and-motion-craft) (8)
 - [Every screen on one page](wall.md)
 - [Our own Hydra](hydra.md) and the kit, [stage](https://github.com/clotheshoesandwoes/stage)
 - [Brief template](briefs/template.md)
@@ -81,6 +82,7 @@ Real-time 3D. Look at what each one spends its WebGL on.
 <tr>
 <td width="33%" valign="top"><a href="sites/14islands/teardown.md"><img src="sites/14islands/card.jpg" width="100%" alt="14islands"></a><br><b><a href="sites/14islands/teardown.md">14islands</a></b><br><sub>Plain big type and real client screens; the 3D is spent only on showing the work</sub></td>
 <td width="33%" valign="top"><a href="sites/samsy/teardown.md"><img src="sites/samsy/card.jpg" width="100%" alt="Samsy"></a><br><b><a href="sites/samsy/teardown.md">Samsy</a></b><br><sub>The portfolio is a game, and the first screen teaches you the controls</sub></td>
+<td width="33%" valign="top"><a href="sites/slow-roads/teardown.md"><img src="sites/slow-roads/card.jpg" width="100%" alt="Slow Roads"></a><br><b><a href="sites/slow-roads/teardown.md">Slow Roads</a></b><br><sub>An endless, procedurally generated drive in the browser: zen instead of a goal</sub></td>
 </tr>
 </table>
 
@@ -146,6 +148,27 @@ Restaurant sites, for the studio.
 <tr>
 <td width="33%" valign="top"><a href="sites/dishoom/teardown.md"><img src="sites/dishoom/card.jpg" width="100%" alt="Dishoom"></a><br><b><a href="sites/dishoom/teardown.md">Dishoom</a></b><br><sub>An old Bombay Irani café told like a travel book: street film, captioned photos, signage</sub></td>
 <td width="33%" valign="top"><a href="sites/noma/teardown.md"><img src="sites/noma/card.jpg" width="100%" alt="noma"></a><br><b><a href="sites/noma/teardown.md">noma</a></b><br><sub>Plain photographs and a long letter signed by the team carry the whole homepage</sub></td>
+</tr>
+</table>
+
+## Studios and motion craft
+
+Studios and interaction craft. Watch what moves, when, and why it earns the motion.
+
+<table>
+<tr>
+<td width="33%" valign="top"><a href="sites/basement-studio/teardown.md"><img src="sites/basement-studio/card.jpg" width="100%" alt="basement.studio"></a><br><b><a href="sites/basement-studio/teardown.md">basement.studio</a></b><br><sub>A studio site that opens inside a 3D model of the studio itself</sub></td>
+<td width="33%" valign="top"><a href="sites/motion-dev/teardown.md"><img src="sites/motion-dev/card.jpg" width="100%" alt="Motion"></a><br><b><a href="sites/motion-dev/teardown.md">Motion</a></b><br><sub>The animation library's site demonstrates each feature live, next to its code</sub></td>
+<td width="33%" valign="top"><a href="sites/emil-kowalski/teardown.md"><img src="sites/emil-kowalski/card.jpg" width="100%" alt="Emil Kowalski"></a><br><b><a href="sites/emil-kowalski/teardown.md">Emil Kowalski</a></b><br><sub>The design engineer behind Sonner and Vaul keeps his own site to plain text; the motion lives in the writing</sub></td>
+</tr>
+<tr>
+<td width="33%" valign="top"><a href="sites/josh-comeau/teardown.md"><img src="sites/josh-comeau/card.jpg" width="100%" alt="Josh W. Comeau"></a><br><b><a href="sites/josh-comeau/teardown.md">Josh W. Comeau</a></b><br><sub>A CSS teacher's blog that is itself a toy: whimsy in every small interaction</sub></td>
+<td width="33%" valign="top"><a href="sites/lynn-fisher/teardown.md"><img src="sites/lynn-fisher/card.jpg" width="100%" alt="Lynn Fisher"></a><br><b><a href="sites/lynn-fisher/teardown.md">Lynn Fisher</a></b><br><sub>A personal site redesigned from scratch every year; this year it's a book's table of contents</sub></td>
+<td width="33%" valign="top"><a href="sites/cuberto/teardown.md"><img src="sites/cuberto/card.jpg" width="100%" alt="Cuberto"></a><br><b><a href="sites/cuberto/teardown.md">Cuberto</a></b><br><sub>A product agency site where the polish is in the cursor and the scroll</sub></td>
+</tr>
+<tr>
+<td width="33%" valign="top"><a href="sites/lando-norris/teardown.md"><img src="sites/lando-norris/card.jpg" width="100%" alt="Lando Norris"></a><br><b><a href="sites/lando-norris/teardown.md">Lando Norris</a></b><br><sub>An F1 driver's site built like a fashion editorial: his signature, his helmet, his photos</sub></td>
+<td width="33%" valign="top"><a href="sites/obys/teardown.md"><img src="sites/obys/card.jpg" width="100%" alt="Obys"></a><br><b><a href="sites/obys/teardown.md">Obys</a></b><br><sub>A studio index where a strip of thumbnails scrolls through a bracket that picks the project</sub></td>
 </tr>
 </table>
 

@@ -1,7 +1,7 @@
 # Izakaya Sakura (house standard)
 
 <!-- gallery:start -->
-<p><a href="../../README.md#house-standard">All sites</a> &nbsp;&nbsp; <a href="../noma/teardown.md">&larr; noma</a> &nbsp;&nbsp; <a href="../activetheory/teardown.md">Active Theory &rarr;</a> &nbsp;&nbsp; <a href="https://www.seankani.com/studio/clients/izakaya-sakura/">Open the live site</a></p>
+<p><a href="../../README.md#house-standard">All sites</a> &nbsp;&nbsp; <a href="../obys/teardown.md">&larr; Obys</a> &nbsp;&nbsp; <a href="../activetheory/teardown.md">Active Theory &rarr;</a> &nbsp;&nbsp; <a href="https://www.seankani.com/studio/clients/izakaya-sakura/">Open the live site</a></p>
 <p><img src="motion.webp" width="100%" alt="Izakaya Sakura, first seconds with the cursor moving"></p>
 <!-- gallery:end -->
 

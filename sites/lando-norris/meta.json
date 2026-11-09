@@ -1,0 +1,37 @@
+{
+  "slug": "lando-norris",
+  "url": "https://landonorris.com",
+  "finalUrl": "https://landonorris.com/",
+  "title": "McLaren Formula 1 Driver — Lando Norris",
+  "captured": "2026-11-09",
+  "stack": {
+    "libs": [
+      "three.js r174",
+      "Lenis",
+      "Webflow"
+    ],
+    "fonts": [
+      "Brier",
+      "Mona Sans Variable"
+    ],
+    "canvases": [
+      "300x150",
+      "1440x900",
+      "800x571",
+      "1061x665",
+      "1440x900"
+    ],
+    "weightKB": {
+      "total": 213,
+      "js": 170,
+      "img": 0,
+      "font": 0,
+      "video": 0
+    },
+    "requests": 61,
+    "reducedMotionCSS": false,
+    "server": "cloudflare · Cloudflare"
+  },
+  "name": "Lando Norris",
+  "idea": "An F1 driver's site built like a fashion editorial: his signature, his helmet, his photos"
+}

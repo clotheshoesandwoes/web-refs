@@ -1,0 +1,30 @@
+{
+  "slug": "motion-dev",
+  "url": "https://motion.dev",
+  "finalUrl": "https://motion.dev/",
+  "title": "Motion (prev Framer Motion): JavaScript & React animation library",
+  "captured": "2026-11-09",
+  "stack": {
+    "libs": [],
+    "fonts": [
+      "Geist Mono",
+      "TASA Orbiter"
+    ],
+    "canvases": [
+      "1200x900",
+      "1440x620"
+    ],
+    "weightKB": {
+      "total": 615,
+      "js": 425,
+      "img": 1,
+      "font": 31,
+      "video": 0
+    },
+    "requests": 134,
+    "reducedMotionCSS": true,
+    "server": "cloudflare · Cloudflare"
+  },
+  "name": "Motion",
+  "idea": "The animation library's site demonstrates each feature live, next to its code"
+}

@@ -35,3 +35,12 @@ objects	panic	https://www.panic.com	--wait=5000 --steps=4
 objects	shopify-editions	https://www.shopify.com/editions/winter2026	--wait=9000 --steps=5
 tables	dishoom	https://www.dishoom.com	--wait=6000 --steps=4
 tables	noma	https://noma.dk	--wait=6000 --steps=4
+worlds	slow-roads	https://slowroads.io	--wait=14000 --steps=0 --click=720,450
+motion	basement-studio	https://basement.studio	--wait=10000 --steps=5
+motion	motion-dev	https://motion.dev	--wait=6000 --steps=5
+motion	emil-kowalski	https://emilkowal.ski	--wait=5000 --steps=3
+motion	josh-comeau	https://www.joshwcomeau.com	--wait=6000 --steps=4
+motion	lynn-fisher	https://lynnandtonic.com	--wait=5000 --steps=3
+motion	cuberto	https://cuberto.com	--wait=9000 --steps=5
+motion	lando-norris	https://landonorris.com	--wait=12000 --steps=5
+motion	obys	https://obys.agency	--wait=9000 --steps=5

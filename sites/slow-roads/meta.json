@@ -1,0 +1,24 @@
+{
+  "slug": "slow-roads",
+  "url": "https://slowroads.io",
+  "finalUrl": "https://slowroads.io/",
+  "title": "Just a moment...",
+  "captured": "2026-11-09",
+  "stack": {
+    "libs": [],
+    "fonts": [],
+    "canvases": [],
+    "weightKB": {
+      "total": 443,
+      "js": 223,
+      "img": 0,
+      "font": 0,
+      "video": 0
+    },
+    "requests": 6,
+    "reducedMotionCSS": true,
+    "server": "cloudflare · Cloudflare"
+  },
+  "name": "Slow Roads",
+  "idea": "An endless, procedurally generated drive in the browser: zen instead of a goal"
+}

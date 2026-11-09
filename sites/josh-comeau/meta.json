@@ -1,0 +1,31 @@
+{
+  "slug": "josh-comeau",
+  "url": "https://www.joshwcomeau.com",
+  "finalUrl": "https://www.joshwcomeau.com/",
+  "title": "Josh W. Comeau",
+  "captured": "2026-11-09",
+  "stack": {
+    "libs": [
+      "Next.js"
+    ],
+    "fonts": [
+      "Wotfard",
+      "Cartograph CF"
+    ],
+    "canvases": [
+      "1000x520"
+    ],
+    "weightKB": {
+      "total": 1003,
+      "js": 295,
+      "img": 100,
+      "font": 93,
+      "video": 0
+    },
+    "requests": 96,
+    "reducedMotionCSS": true,
+    "server": "Vercel · Vercel"
+  },
+  "name": "Josh W. Comeau",
+  "idea": "A CSS teacher's blog that is itself a toy: whimsy in every small interaction"
+}
