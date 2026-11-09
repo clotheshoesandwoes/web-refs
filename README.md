@@ -24,6 +24,8 @@ Links and GitHub stats were checked on 2026-10-28.
 
 Illustrated scenes: [`pieces/illustrated-scenes`](pieces/illustrated-scenes/README.md) is the anime-background and engraving refs plus North County coast spots for The Grid.
 
+Isometric maps: [`pieces/isometric-maps`](pieces/isometric-maps/README.md) is the painted isometric city maps (SF, NYC, Toronto), how they were made, and a pixel-art coast town, for Isometric Earth.
+
 Motion: [`motion.md`](motion.md) lists the free UI motion tools (Motion, View Transitions, Vaul, Sonner) and the one-moment rule.
 
 <!-- gallery:start -->
