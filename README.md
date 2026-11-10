@@ -26,6 +26,8 @@ Illustrated scenes: [`pieces/illustrated-scenes`](pieces/illustrated-scenes/READ
 
 Isometric maps: [`pieces/isometric-maps`](pieces/isometric-maps/README.md) is the painted isometric city maps (SF, NYC, Toronto), how they were made, and a pixel-art coast town, for Isometric Earth.
 
+One-file studies: [`pieces/one-file-studies`](pieces/one-file-studies/README.md) is the 76 single-file pages Claude Fable 5.2 wrote for MiaAI Lab's 100 HTML Files, with picks for client pages, type and /work layouts.
+
 Motion: [`motion.md`](motion.md) lists the free UI motion tools (Motion, View Transitions, Vaul, Sonner) and the one-moment rule.
 
 <!-- gallery:start -->
