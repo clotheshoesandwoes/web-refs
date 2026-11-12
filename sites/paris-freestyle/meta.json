@@ -1,0 +1,33 @@
+{
+  "slug": "paris-freestyle",
+  "url": "https://parisfreestyle.netlify.app/",
+  "finalUrl": "https://parisfreestyle.netlify.app/",
+  "title": "Paris Freestyle — brush-stroke juggling lab",
+  "captured": "2026-11-11",
+  "stack": {
+    "libs": [
+      "three.js r147"
+    ],
+    "fonts": [
+      "lil-gui",
+      "Caveat Brush",
+      "Inter",
+      "Unbounded"
+    ],
+    "canvases": [
+      "1116x628"
+    ],
+    "weightKB": {
+      "total": 1430,
+      "js": 1411,
+      "img": 0,
+      "font": 0,
+      "video": 0
+    },
+    "requests": 7,
+    "reducedMotionCSS": false,
+    "server": "Netlify · Netlify"
+  },
+  "name": "Paris Freestyle",
+  "idea": "A kid juggles a football down four Paris streets that paint themselves in as brush strokes, cut to a beat and exported as a clip"
+}

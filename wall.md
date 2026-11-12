@@ -1,6 +1,6 @@
 # Every screen
 
-All 254 screenshots. Click any image for full size, or a name for the teardown.
+All 256 screenshots. Click any image for full size, or a name for the teardown.
 
 [Back to the gallery](README.md)
 
@@ -71,6 +71,10 @@ All 254 screenshots. Click any image for full size, or a name for the teardown.
 ### [Slow Roads](sites/slow-roads/teardown.md)
 
 <a href="sites/slow-roads/01-hero.jpg"><img src="sites/slow-roads/t/01-hero.jpg" width="240"></a> <a href="sites/slow-roads/phone.jpg"><img src="sites/slow-roads/t/phone.jpg" width="120"></a>
+
+### [Paris Freestyle](sites/paris-freestyle/teardown.md)
+
+<a href="sites/paris-freestyle/01-hero.jpg"><img src="sites/paris-freestyle/t/01-hero.jpg" width="240"></a> <a href="sites/paris-freestyle/phone.jpg"><img src="sites/paris-freestyle/t/phone.jpg" width="120"></a>
 
 ## Type foundries and editorial
 

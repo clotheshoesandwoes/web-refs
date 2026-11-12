@@ -1476,5 +1476,36 @@ window.SITES = [
     "video": 0
    }
   }
+ },
+ {
+  "slug": "paris-freestyle",
+  "name": "Paris Freestyle",
+  "idea": "A kid juggles a football down four Paris streets that paint themselves in as brush strokes, cut to a beat and exported as a clip",
+  "url": "https://parisfreestyle.netlify.app/",
+  "group": "worlds",
+  "shots": [
+   "01-hero.jpg",
+   "phone.jpg"
+  ],
+  "motion": true,
+  "groupTitle": "Worlds",
+  "stack": {
+   "libs": [
+    "three.js r147"
+   ],
+   "fonts": [
+    "lil-gui",
+    "Caveat Brush",
+    "Inter",
+    "Unbounded"
+   ],
+   "weightKB": {
+    "total": 1430,
+    "js": 1411,
+    "img": 0,
+    "font": 0,
+    "video": 0
+   }
+  }
  }
 ];

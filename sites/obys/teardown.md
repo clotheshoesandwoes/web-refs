@@ -1,7 +1,7 @@
 # Obys
 
 <!-- gallery:start -->
-<p><a href="../../README.md#studios-and-motion-craft">All sites</a> &nbsp;&nbsp; <a href="../lando-norris/teardown.md">&larr; Lando Norris</a> &nbsp;&nbsp; <a href="../izakaya-sakura/teardown.md">Izakaya Sakura &rarr;</a> &nbsp;&nbsp; <a href="https://obys.agency">Open the live site</a></p>
+<p><a href="../../README.md#studios-and-motion-craft">All sites</a> &nbsp;&nbsp; <a href="../lando-norris/teardown.md">&larr; Lando Norris</a> &nbsp;&nbsp; <a href="../paris-freestyle/teardown.md">Paris Freestyle &rarr;</a> &nbsp;&nbsp; <a href="https://obys.agency">Open the live site</a></p>
 <p><img src="motion.webp" width="100%" alt="Obys, first seconds with the cursor moving"></p>
 <!-- gallery:end -->
 

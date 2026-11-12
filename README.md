@@ -32,12 +32,12 @@ Motion: [`motion.md`](motion.md) lists the free UI motion tools (Motion, View Tr
 
 <!-- gallery:start -->
 
-**45 sites, 254 screenshots.** Click any card for the teardown: every screenshot, a motion preview, the stack, what to steal and what not to.
+**46 sites, 256 screenshots.** Click any card for the teardown: every screenshot, a motion preview, the stack, what to steal and what not to.
 
 Jump to:
 
 - [House standard](#house-standard) (1)
-- [Worlds](#worlds) (15)
+- [Worlds](#worlds) (16)
 - [Type foundries and editorial](#type-foundries-and-editorial) (7)
 - [Writing and personal sites](#writing-and-personal-sites) (6)
 - [Products, radio and genre pieces](#products-radio-and-genre-pieces) (6)
@@ -87,6 +87,9 @@ Real-time 3D. Look at what each one spends its WebGL on.
 <td width="33%" valign="top"><a href="sites/14islands/teardown.md"><img src="sites/14islands/card.jpg" width="100%" alt="14islands"></a><br><b><a href="sites/14islands/teardown.md">14islands</a></b><br><sub>Plain big type and real client screens; the 3D is spent only on showing the work</sub></td>
 <td width="33%" valign="top"><a href="sites/samsy/teardown.md"><img src="sites/samsy/card.jpg" width="100%" alt="Samsy"></a><br><b><a href="sites/samsy/teardown.md">Samsy</a></b><br><sub>The portfolio is a game, and the first screen teaches you the controls</sub></td>
 <td width="33%" valign="top"><a href="sites/slow-roads/teardown.md"><img src="sites/slow-roads/card.jpg" width="100%" alt="Slow Roads"></a><br><b><a href="sites/slow-roads/teardown.md">Slow Roads</a></b><br><sub>An endless, procedurally generated drive in the browser: zen instead of a goal</sub></td>
+</tr>
+<tr>
+<td width="33%" valign="top"><a href="sites/paris-freestyle/teardown.md"><img src="sites/paris-freestyle/card.jpg" width="100%" alt="Paris Freestyle"></a><br><b><a href="sites/paris-freestyle/teardown.md">Paris Freestyle</a></b><br><sub>A kid juggles a football down four Paris streets that paint themselves in as brush strokes, cut to a beat and exported as a clip</sub></td>
 </tr>
 </table>
 

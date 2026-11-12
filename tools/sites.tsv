@@ -44,3 +44,4 @@ motion	lynn-fisher	https://lynnandtonic.com	--wait=5000 --steps=3
 motion	cuberto	https://cuberto.com	--wait=9000 --steps=5
 motion	lando-norris	https://landonorris.com	--wait=12000 --steps=5
 motion	obys	https://obys.agency	--wait=9000 --steps=5
+worlds	paris-freestyle	https://parisfreestyle.netlify.app/	--wait=16000 --steps=0 --frames=12
