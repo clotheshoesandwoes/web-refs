@@ -1,7 +1,7 @@
 # Izakaya Sakura (house standard)
 
 <!-- gallery:start -->
-<p><a href="../../README.md#house-standard">All sites</a> &nbsp;&nbsp; <a href="../paris-freestyle/teardown.md">&larr; Paris Freestyle</a> &nbsp;&nbsp; <a href="../activetheory/teardown.md">Active Theory &rarr;</a> &nbsp;&nbsp; <a href="https://www.seankani.com/studio/clients/izakaya-sakura/">Open the live site</a></p>
+<p><a href="../../README.md#house-standard">All sites</a> &nbsp;&nbsp; <a href="../codevember-tillberg-12/teardown.md">&larr; Feather (T. Tillberg, Codevember 12)</a> &nbsp;&nbsp; <a href="../activetheory/teardown.md">Active Theory &rarr;</a> &nbsp;&nbsp; <a href="https://www.seankani.com/studio/clients/izakaya-sakura/">Open the live site</a></p>
 <p><img src="motion.webp" width="100%" alt="Izakaya Sakura, first seconds with the cursor moving"></p>
 <!-- gallery:end -->
 

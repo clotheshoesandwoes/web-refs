@@ -45,3 +45,7 @@ motion	cuberto	https://cuberto.com	--wait=9000 --steps=5
 motion	lando-norris	https://landonorris.com	--wait=12000 --steps=5
 motion	obys	https://obys.agency	--wait=9000 --steps=5
 worlds	paris-freestyle	https://parisfreestyle.netlify.app/	--wait=16000 --steps=0 --frames=12
+worlds	rainforest-flight	https://karimbeyrouti.github.io/rainforest/codevember.html#/flight	--wait=14000 --steps=0 --frames=12
+worlds	nightclub-driftspeed	https://nightclub-driftspeed.xyz	--wait=14000 --steps=0 --frames=12
+worlds	crimson-loong	https://chetaslua.github.io/crimson-loong/	--wait=14000 --steps=0 --frames=12
+worlds	codevember-tillberg-12	https://ttillberg.github.io/codevember-2026/12/	--wait=14000 --steps=0 --frames=12

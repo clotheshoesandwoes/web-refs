@@ -1507,5 +1507,115 @@ window.SITES = [
     "video": 0
    }
   }
+ },
+ {
+  "slug": "rainforest-flight",
+  "name": "Cloud Flight (Karim Beyrouti)",
+  "idea": "A paper plane, a sea of cloud, and four times of day to fly it in",
+  "url": "https://karimbeyrouti.github.io/rainforest/codevember.html#/flight",
+  "group": "worlds",
+  "shots": [
+   "01-hero.jpg",
+   "phone.jpg"
+  ],
+  "motion": true,
+  "groupTitle": "Worlds",
+  "stack": {
+   "libs": [
+    "three.js r187"
+   ],
+   "fonts": [
+    "Fraunces",
+    "Inter"
+   ],
+   "weightKB": {
+    "total": 369,
+    "js": 358,
+    "img": 0,
+    "font": 0,
+    "video": 0
+   }
+  }
+ },
+ {
+  "slug": "nightclub-driftspeed",
+  "name": "NightClub: Drift & Speed",
+  "idea": "A drift game whose menu is already a wet Tokyo street at night",
+  "url": "https://nightclub-driftspeed.xyz",
+  "group": "worlds",
+  "shots": [
+   "01-hero.jpg",
+   "phone.jpg"
+  ],
+  "motion": true,
+  "groupTitle": "Worlds",
+  "stack": {
+   "libs": [
+    "three.js r187"
+   ],
+   "fonts": [],
+   "weightKB": {
+    "total": 19544,
+    "js": 709,
+    "img": 327,
+    "font": 0,
+    "video": 0
+   }
+  }
+ },
+ {
+  "slug": "crimson-loong",
+  "name": "Crimson Loong",
+  "idea": "A short film of a dragon temple, with every mesh, texture and note written as code",
+  "url": "https://chetaslua.github.io/crimson-loong/",
+  "group": "worlds",
+  "shots": [
+   "01-hero.jpg",
+   "phone.jpg"
+  ],
+  "motion": true,
+  "groupTitle": "Worlds",
+  "stack": {
+   "libs": [
+    "three.js r180"
+   ],
+   "fonts": [],
+   "weightKB": {
+    "total": 604,
+    "js": 0,
+    "img": 0,
+    "font": 0,
+    "video": 0
+   }
+  }
+ },
+ {
+  "slug": "codevember-tillberg-12",
+  "name": "Feather (T. Tillberg, Codevember 12)",
+  "idea": "One hummingbird on a branch, and the feathers change colour as it turns",
+  "url": "https://ttillberg.github.io/codevember-2026/12/",
+  "group": "worlds",
+  "shots": [
+   "01-hero.jpg",
+   "phone.jpg"
+  ],
+  "motion": true,
+  "groupTitle": "Worlds",
+  "stack": {
+   "libs": [
+    "three.js r187"
+   ],
+   "fonts": [
+    "IBM Plex Sans",
+    "Inter"
+   ],
+   "weightKB": {
+    "total": 5206,
+    "js": 231,
+    "img": 0,
+    "font": 0,
+    "video": 0
+   }
+  }
  }
 ];

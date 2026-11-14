@@ -1,7 +1,7 @@
 # Paris Freestyle
 
 <!-- gallery:start -->
-<p><a href="../../README.md#worlds">All sites</a> &nbsp;&nbsp; <a href="../obys/teardown.md">&larr; Obys</a> &nbsp;&nbsp; <a href="../izakaya-sakura/teardown.md">Izakaya Sakura &rarr;</a> &nbsp;&nbsp; <a href="https://parisfreestyle.netlify.app/">Open the live site</a></p>
+<p><a href="../../README.md#worlds">All sites</a> &nbsp;&nbsp; <a href="../obys/teardown.md">&larr; Obys</a> &nbsp;&nbsp; <a href="../rainforest-flight/teardown.md">Cloud Flight (Karim Beyrouti) &rarr;</a> &nbsp;&nbsp; <a href="https://parisfreestyle.netlify.app/">Open the live site</a></p>
 <p><img src="motion.webp" width="100%" alt="Paris Freestyle, first seconds with the cursor moving"></p>
 <!-- gallery:end -->
 

@@ -1,0 +1,31 @@
+{
+  "slug": "codevember-tillberg-12",
+  "url": "https://ttillberg.github.io/codevember-2026/12/",
+  "finalUrl": "https://ttillberg.github.io/codevember-2026/12/",
+  "title": "12 · Feather · Codevember 2026",
+  "captured": "2026-11-14",
+  "stack": {
+    "libs": [
+      "three.js r187"
+    ],
+    "fonts": [
+      "IBM Plex Sans",
+      "Inter"
+    ],
+    "canvases": [
+      "1440x900"
+    ],
+    "weightKB": {
+      "total": 5206,
+      "js": 231,
+      "img": 0,
+      "font": 0,
+      "video": 0
+    },
+    "requests": 4,
+    "reducedMotionCSS": false,
+    "server": "GitHub.com"
+  },
+  "name": "Feather (T. Tillberg, Codevember 12)",
+  "idea": "One hummingbird on a branch, and the feathers change colour as it turns"
+}

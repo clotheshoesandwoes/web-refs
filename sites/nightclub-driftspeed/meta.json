@@ -1,0 +1,28 @@
+{
+  "slug": "nightclub-driftspeed",
+  "url": "https://nightclub-driftspeed.xyz",
+  "finalUrl": "https://www.nightclub-driftspeed.xyz/",
+  "title": "NightClub: Drift & Speed",
+  "captured": "2026-11-14",
+  "stack": {
+    "libs": [
+      "three.js r187"
+    ],
+    "fonts": [],
+    "canvases": [
+      "1440x900"
+    ],
+    "weightKB": {
+      "total": 19544,
+      "js": 709,
+      "img": 327,
+      "font": 0,
+      "video": 0
+    },
+    "requests": 79,
+    "reducedMotionCSS": true,
+    "server": "Vercel · Vercel"
+  },
+  "name": "NightClub: Drift & Speed",
+  "idea": "A drift game whose menu is already a wet Tokyo street at night"
+}

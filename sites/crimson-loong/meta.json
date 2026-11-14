@@ -1,0 +1,28 @@
+{
+  "slug": "crimson-loong",
+  "url": "https://chetaslua.github.io/crimson-loong/",
+  "finalUrl": "https://chetaslua.github.io/crimson-loong/",
+  "title": "赤龍 · Crimson Loong",
+  "captured": "2026-11-14",
+  "stack": {
+    "libs": [
+      "three.js r180"
+    ],
+    "fonts": [],
+    "canvases": [
+      "1440x900"
+    ],
+    "weightKB": {
+      "total": 604,
+      "js": 0,
+      "img": 0,
+      "font": 0,
+      "video": 0
+    },
+    "requests": 1,
+    "reducedMotionCSS": false,
+    "server": "GitHub.com"
+  },
+  "name": "Crimson Loong",
+  "idea": "A short film of a dragon temple, with every mesh, texture and note written as code"
+}

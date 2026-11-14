@@ -32,12 +32,12 @@ Motion: [`motion.md`](motion.md) lists the free UI motion tools (Motion, View Tr
 
 <!-- gallery:start -->
 
-**46 sites, 256 screenshots.** Click any card for the teardown: every screenshot, a motion preview, the stack, what to steal and what not to.
+**50 sites, 264 screenshots.** Click any card for the teardown: every screenshot, a motion preview, the stack, what to steal and what not to.
 
 Jump to:
 
 - [House standard](#house-standard) (1)
-- [Worlds](#worlds) (16)
+- [Worlds](#worlds) (20)
 - [Type foundries and editorial](#type-foundries-and-editorial) (7)
 - [Writing and personal sites](#writing-and-personal-sites) (6)
 - [Products, radio and genre pieces](#products-radio-and-genre-pieces) (6)
@@ -90,6 +90,12 @@ Real-time 3D. Look at what each one spends its WebGL on.
 </tr>
 <tr>
 <td width="33%" valign="top"><a href="sites/paris-freestyle/teardown.md"><img src="sites/paris-freestyle/card.jpg" width="100%" alt="Paris Freestyle"></a><br><b><a href="sites/paris-freestyle/teardown.md">Paris Freestyle</a></b><br><sub>A kid juggles a football down four Paris streets that paint themselves in as brush strokes, cut to a beat and exported as a clip</sub></td>
+<td width="33%" valign="top"><a href="sites/rainforest-flight/teardown.md"><img src="sites/rainforest-flight/card.jpg" width="100%" alt="Cloud Flight (Karim Beyrouti)"></a><br><b><a href="sites/rainforest-flight/teardown.md">Cloud Flight (Karim Beyrouti)</a></b><br><sub>A paper plane, a sea of cloud, and four times of day to fly it in</sub></td>
+<td width="33%" valign="top"><a href="sites/nightclub-driftspeed/teardown.md"><img src="sites/nightclub-driftspeed/card.jpg" width="100%" alt="NightClub: Drift & Speed"></a><br><b><a href="sites/nightclub-driftspeed/teardown.md">NightClub: Drift & Speed</a></b><br><sub>A drift game whose menu is already a wet Tokyo street at night</sub></td>
+</tr>
+<tr>
+<td width="33%" valign="top"><a href="sites/crimson-loong/teardown.md"><img src="sites/crimson-loong/card.jpg" width="100%" alt="Crimson Loong"></a><br><b><a href="sites/crimson-loong/teardown.md">Crimson Loong</a></b><br><sub>A short film of a dragon temple, with every mesh, texture and note written as code</sub></td>
+<td width="33%" valign="top"><a href="sites/codevember-tillberg-12/teardown.md"><img src="sites/codevember-tillberg-12/card.jpg" width="100%" alt="Feather (T. Tillberg, Codevember 12)"></a><br><b><a href="sites/codevember-tillberg-12/teardown.md">Feather (T. Tillberg, Codevember 12)</a></b><br><sub>One hummingbird on a branch, and the feathers change colour as it turns</sub></td>
 </tr>
 </table>
 
